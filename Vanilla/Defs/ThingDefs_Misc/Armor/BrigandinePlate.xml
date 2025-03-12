@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	<ThingDef ParentName="ArmorSmithableBase">
+		<defName>TC_BrigandinePlate</defName>
+		<label>brigandine plate armor</label>
+		<description>Brigandine vest with plate limb cover. Compared to proper full plate armor, it's somewhat less protective but it's simpler to produce and maintain.</description>
+		<graphicData>
+			<texPath>Apparel/Armor/BrigandinePlate/BrigandinePlate</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<recipeMaker>
+			<researchPrerequisite>PlateArmor</researchPrerequisite>
+			<unfinishedThingDef>UnfinishedMetallicTechArmor</unfinishedThingDef>
+			<skillRequirements>
+				<Crafting>7</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<techLevel>Medieval</techLevel>
+		<costList>
+			<Cloth>60</Cloth>
+		</costList>
+		<costStuffCount>165</costStuffCount>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<equippedStatOffsets>
+			 <MoveSpeed>-0.8</MoveSpeed>
+		</equippedStatOffsets>
+		<statBases>
+			<MaxHitPoints>350</MaxHitPoints>
+			<WorkToMake>40000</WorkToMake>
+			<Mass>18</Mass>
+			<StuffEffectMultiplierArmor>0.80</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.12</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.12</StuffEffectMultiplierInsulation_Heat>
+			<EquipDelay>10</EquipDelay>
+		</statBases>
+		<thingCategories>
+			<li>ApparelArmor</li>
+		</thingCategories>
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Legs</li>
+				<li>Hands</li>
+				<li>Feet</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Apparel/Armor/BrigandinePlate/BrigandinePlate</wornGraphicPath>
+			<useWornGraphicMask>true</useWornGraphicMask>
+			<layers>
+				<li>Middle</li>
+				<li>Shell</li>
+			</layers>
+			<tags>
+				<li>MedievalMilitary</li>
+				<li>MedievalArmorDecent</li>
+        <li MayRequire="Ludeon.RimWorld.Royalty">Royal</li>
+        <li MayRequire="Ludeon.RimWorld.Royalty">RoyalTier2</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_StandardApparel" />
+		<tradeTags>
+			<li>Clothing</li>
+			<li>Armor</li>
+		</tradeTags>
+	</ThingDef>
+</Defs>

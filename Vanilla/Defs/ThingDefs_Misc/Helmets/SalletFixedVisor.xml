@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	<ThingDef ParentName="ArmorSmithableBase" Name="TC_SalletFixedVisor_Visor" Abstract="True">
+		<label>sallet with fixed visor</label>
+		<description>A sallet type helmet with fixed visor, cheaper than it's knightly counterpart. While it restircts vision quite a bit while down, can easily be tilted up to provide clear field of view, making it extrememly popular among crossbowmen.</description>
+		<graphicData>
+			<texPath>Apparel/Helmets/SalletFixedVisor/SalletFixedVisor</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<possessionCount>1</possessionCount>
+		<recipeMaker>
+			<researchPrerequisite>PlateArmor</researchPrerequisite>
+			<unfinishedThingDef>UnfinishedMetallicTechArmor</unfinishedThingDef>
+			<skillRequirements>
+				<Crafting>4</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<techLevel>Medieval</techLevel>
+		<costStuffCount>50</costStuffCount>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<statBases>
+			<MaxHitPoints>140</MaxHitPoints>
+			<WorkToMake>5500</WorkToMake>
+			<Mass>2.5</Mass>
+			<StuffEffectMultiplierArmor>1.02</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.12</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.12</StuffEffectMultiplierInsulation_Heat>
+			<EquipDelay>1</EquipDelay>
+		</statBases>
+		<thingCategories>
+			<li>ApparelArmor</li>
+		</thingCategories>
+		<apparel>
+      <parentTagDef>ApparelHead</parentTagDef>
+			<bodyPartGroups>
+				<li>UpperHead</li>
+				<li>Eyes</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Apparel/Helmets/SalletFixedVisor/SalletFixedVisor</wornGraphicPath>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+			<tags>
+				<li>MedievalMilitary</li>
+				<li>MedievalArmorBasic</li>
+				<li>MedievalArmorDecent</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_StandardApparel" />
+		<tradeTags>
+			<li>Clothing</li>
+			<li>Armor</li>
+		</tradeTags>
+	</ThingDef>
+	
+	
+	<ThingDef ParentName="TC_SalletFixedVisor_Visor">
+		<defName>TC_SalletFixedVisor</defName>
+		<graphicData>
+			<texPath>Apparel/Helmets/SalletFixedVisor/SalletFixedVisor</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Apparel/Helmets/SalletFixedVisor/SalletFixedVisor</wornGraphicPath>
+		</apparel>
+		<comps>
+			<li Class="VanillaApparelExpanded.CompProperties_SwitchApparel" MayRequire="oskarpotocki.vanillafactionsexpanded.core">
+				<SwitchTo>TC_SalletFixedVisor_UP</SwitchTo>
+				<graphicPath>Apparel/Helmets/SalletFixedVisor/SalletFixedVisor_open</graphicPath>
+				<Label>open visor</Label>
+			</li>
+		</comps>
+	</ThingDef>
+	
+	
+	<ThingDef ParentName="TC_SalletFixedVisor_Visor">
+		<defName>TC_SalletFixedVisor_UP</defName>
+		<graphicData>
+			<texPath>Apparel/Helmets/SalletFixedVisor/SalletFixedVisor_UP</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<recipeMaker Inherit="False" />
+		<apparel>
+			<wornGraphicPath>Apparel/Helmets/SalletFixedVisor/SalletFixedVisor_UP</wornGraphicPath>
+		</apparel>
+		<comps>
+			<li Class="VanillaApparelExpanded.CompProperties_SwitchApparel" MayRequire="oskarpotocki.vanillafactionsexpanded.core">
+				<SwitchTo>TC_SalletFixedVisor</SwitchTo>
+				<graphicPath>Apparel/Helmets/SalletFixedVisor/SalletFixedVisor_close</graphicPath>
+				<Label>pull down</Label>
+			</li>
+		</comps>
+	</ThingDef>
+
+</Defs>

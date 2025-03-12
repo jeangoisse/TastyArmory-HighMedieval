@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	<!-- ==================== Gambeson Coat ==================== -->
+	<ThingDef ParentName="ApparelMakeableBase">
+		<defName>TC_GambesonCoat</defName>
+		<label>gambeson coat</label>
+		<description>Thick padded coat worn as armor by itself or under other amor.</description>
+		<graphicData>
+			<texPath>Apparel/Armor/GambesonCoat/GambesonCoat</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<recipeMaker>
+			<researchPrerequisite>ComplexClothing</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>4</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<techLevel>Medieval</techLevel>
+		<costStuffCount>110</costStuffCount>
+		<stuffCategories>
+			<li>Fabric</li>
+		</stuffCategories>
+		<equippedStatOffsets></equippedStatOffsets>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<WorkToMake>5000</WorkToMake>
+			<Mass>5</Mass>
+			<StuffEffectMultiplierArmor>0.3</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.5</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.15</StuffEffectMultiplierInsulation_Heat>
+			<EquipDelay>5</EquipDelay>
+		</statBases>
+		<thingCategories>
+			<li>ApparelArmor</li>
+		</thingCategories>
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Legs</li>
+				<li>Neck</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Apparel/Armor/GambesonCoat/GambesonCoat</wornGraphicPath>
+			<useWornGraphicMask>true</useWornGraphicMask>
+			<layers>
+				<li>Middle</li>
+			</layers>
+			<tags>
+				<li>MedievalMilitary</li>
+				<li>MedievalArmorBasic</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_StandardApparel" />
+		<tradeTags>
+			<li>Clothing</li>
+			<li>Armor</li>
+		</tradeTags>
+	</ThingDef>
+</Defs>

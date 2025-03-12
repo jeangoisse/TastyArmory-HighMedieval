@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	<!-- ==================== coat of plates ==================== -->
+	<ThingDef ParentName="ArmorSmithableBase">
+		<defName>TC_CoatOfPlates</defName>
+		<label>coat of plates</label>
+		<description>A medium sized overlapping plates riveted onto a vest, it provides great protection but not quite form fitting.</description>
+		<graphicData>
+			<texPath>Apparel/Armor/CoatOfPlates/CoatOfPlates</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<recipeMaker>
+			<researchPrerequisite>Smithing</researchPrerequisite>
+			<unfinishedThingDef>UnfinishedMetallicTechArmor</unfinishedThingDef>
+			<skillRequirements>
+				<Crafting>4</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<techLevel>Medieval</techLevel>
+		<costList>
+			<Cloth>35</Cloth>
+		</costList>
+		<costStuffCount>55</costStuffCount>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<equippedStatOffsets>
+			<MoveSpeed>-0.5</MoveSpeed>
+		</equippedStatOffsets>
+		<statBases>
+			<MaxHitPoints>160</MaxHitPoints>
+			<WorkToMake>15000</WorkToMake>
+			<Mass>8</Mass>
+			<StuffEffectMultiplierArmor>0.65</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.12</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.12</StuffEffectMultiplierInsulation_Heat>
+			<EquipDelay>4</EquipDelay>
+		</statBases>
+		<thingCategories>
+			<li>ApparelArmor</li>
+		</thingCategories>
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Shoulders</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Apparel/Armor/CoatOfPlates/CoatOfPlates</wornGraphicPath>
+			<layers>
+				<li>Shell</li>
+			</layers>
+			<tags>
+				<li>MedievalMilitary</li>
+				<li>MedievalArmorBasic</li>
+				<li>MedievalArmorDecent</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_StandardApparel" />
+		<tradeTags>
+			<li>Clothing</li>
+			<li>Armor</li>
+		</tradeTags>
+	</ThingDef>
+</Defs>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	<ThingDef ParentName="ArmorSmithableBase" Name="TC_Armet_Visor" Abstract="True">
+		<label>armet</label>
+		<description>Fully enclosed helmet with reinforced forehead plate, shaped to closely fit the wearer's head, providing exelent protection.</description>
+		<possessionCount>1</possessionCount>
+		<recipeMaker>
+			<researchPrerequisite>PlateArmor</researchPrerequisite>
+			<unfinishedThingDef>UnfinishedMetallicTechArmor</unfinishedThingDef>
+			<skillRequirements>
+				<Crafting>8</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<techLevel>Medieval</techLevel>
+		<costStuffCount>65</costStuffCount>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<statBases>
+			<MaxHitPoints>150</MaxHitPoints>
+			<WorkToMake>10000</WorkToMake>
+			<Mass>3</Mass>
+			<StuffEffectMultiplierArmor>1.05</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.12</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.12</StuffEffectMultiplierInsulation_Heat>
+			<EquipDelay>1</EquipDelay>
+		</statBases>
+		<thingCategories>
+			<li>ApparelArmor</li>
+		</thingCategories>
+		<apparel>
+      <parentTagDef>ApparelHead</parentTagDef>
+			<bodyPartGroups>
+				<li>FullHead</li>
+				<li>Neck</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Apparel/Helmets/Armet/Armet</wornGraphicPath>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+			<tags>
+				<li>MedievalMilitary</li>
+				<li>MedievalArmorDecent</li>
+        <li MayRequire="Ludeon.RimWorld.Royalty">Royal</li>
+        <li MayRequire="Ludeon.RimWorld.Royalty">RoyalTier2</li>
+        <li MayRequire="Ludeon.RimWorld.Royalty">RoyalTier5</li>
+        <li MayRequire="Ludeon.RimWorld.Royalty">RoyalTier6</li>
+        <li MayRequire="Ludeon.RimWorld.Royalty">RoyalTier7</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+		</apparel>
+		<tradeTags>
+			<li>Clothing</li>
+			<li>Armor</li>
+		</tradeTags>
+	</ThingDef>
+	
+	
+	<ThingDef ParentName="TC_Armet_Visor">
+		<defName>TC_Armet</defName>
+		<graphicData>
+			<texPath>Apparel/Helmets/Armet/Armet</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Apparel/Helmets/Armet/Armet</wornGraphicPath>
+		</apparel>
+		<comps>
+			<li Class="VanillaApparelExpanded.CompProperties_SwitchApparel" MayRequire="oskarpotocki.vanillafactionsexpanded.core">
+				<SwitchTo>TC_Armet_UP</SwitchTo>
+				<graphicPath>Apparel/Helmets/Armet/Armet_open</graphicPath>
+				<Label>open visor</Label>
+			</li>
+		</comps>
+	</ThingDef>
+	
+	<ThingDef ParentName="TC_Armet_Visor">
+		<defName>TC_Armet_UP</defName>
+		<graphicData>
+			<texPath>Apparel/Helmets/Armet/Armet_UP</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<recipeMaker Inherit="False" />
+		<apparel>
+			<wornGraphicPath>Apparel/Helmets/Armet/Armet_UP</wornGraphicPath>
+		</apparel>
+		<comps>
+			<li Class="VanillaApparelExpanded.CompProperties_SwitchApparel" MayRequire="oskarpotocki.vanillafactionsexpanded.core">
+				<SwitchTo>TC_Armet</SwitchTo>
+				<graphicPath>Apparel/Helmets/Armet/Armet_close</graphicPath>
+				<Label>close visor</Label>
+			</li>
+		</comps>
+	</ThingDef>
+
+</Defs>
