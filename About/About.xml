@@ -3,10 +3,9 @@
 	<name>Tastier Armory - Medieval European Armors</name>
 	<author>al9000</author>
 	<supportedVersions>
-	  <li>1.4</li>
 	  <li>1.5</li>
 	</supportedVersions>
-		<packageId>al9000.medievaleuropeanarmors</packageId>
+		<packageId>al9000.medievaleuropepartone</packageId>
 	<description>stuff</description>
 	<modDependencies>
 		<li>
