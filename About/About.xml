@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
 	<name>Tastier Armory - Medieval European Armors</name>
-	<author>al9000</author>
+	<author>al9000</author>	
+	<url>https://github.com/SerinaCE/TastyArmory-MedievalEurope</url>
 	<supportedVersions>
 	  <li>1.5</li>
 	</supportedVersions>
