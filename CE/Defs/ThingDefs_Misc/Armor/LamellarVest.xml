@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<ThingDef ParentName="ArmorSmithableBase" Name="TA_LamellarVest">
+		<defName>TA_LamellarVestMetal</defName>
+		<label>lamellar vest</label>
+		<description>.</description>
+		<graphicData>
+			<texPath>Apparel/Armor/TA_LamellarVest/TA_LamellarVest</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<possessionCount>1</possessionCount>
+		<recipeMaker>
+			<researchPrerequisite>Smithing</researchPrerequisite>
+			<unfinishedThingDef>UnfinishedMetallicTechArmor</unfinishedThingDef>
+			<skillRequirements>
+				<Crafting>3</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<techLevel>Medieval</techLevel>
+		<costStuffCount>65</costStuffCount>
+		<stuffCategories>
+			<li>Steeled</li>
+		</stuffCategories>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<WorkToMake>15000</WorkToMake>
+			<Bulk>20</Bulk>
+			<WornBulk>3.0</WornBulk>
+			<Mass>6.0</Mass>
+			<StuffEffectMultiplierArmor>2</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.1</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.15</StuffEffectMultiplierInsulation_Heat>
+			<EquipDelay>2</EquipDelay>
+		</statBases>
+		<thingCategories>
+			<li>ApparelArmor</li>
+		</thingCategories>
+		<apparel>
+			<drawData>
+				<defaultData>
+					<layer>23</layer>
+				</defaultData>
+			</drawData>
+			<shellRenderedBehindHead>true</shellRenderedBehindHead>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Neck</li>
+				<li>Shoulders</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Apparel/Armor/TA_LamellarVest/TA_LamellarVest</wornGraphicPath>
+			<layers>
+				<li>Middle</li>
+			</layers>
+			<tags>
+				<li>MedievalMilitary</li>
+				<li>MedievalArmorDecent</li>
+				<li MayRequire="Ludeon.RimWorld.Royalty">Royal</li>
+				<li MayRequire="Ludeon.RimWorld.Royalty">RoyalTier2</li>
+				<li MayRequire="Ludeon.RimWorld.Royalty">RoyalTier5</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+		</apparel>
+		<modExtensions>
+			<li Class="CombatExtended.PartialArmorExt">
+				<stats>
+					<li>
+						<ArmorRating_Blunt>0.85</ArmorRating_Blunt>
+						<parts>
+							<li>Torso</li>
+						</parts>
+					</li>
+					<li>
+						<ArmorRating_Sharp>0.40</ArmorRating_Sharp>
+						<parts>
+							<li>Neck</li>
+						</parts>
+					</li>
+					<li>
+						<ArmorRating_Blunt>0.40</ArmorRating_Blunt>
+						<parts>
+							<li>Neck</li>
+						</parts>
+					</li>
+					<li>
+						<ArmorRating_Sharp>0.60</ArmorRating_Sharp>
+						<parts>
+							<li>Shoulder</li>
+						</parts>
+					</li>
+					<li>
+						<ArmorRating_Blunt>0.60</ArmorRating_Blunt>
+						<parts>
+							<li>Shoulder</li>
+						</parts>
+					</li>
+				</stats>
+			</li>
+		</modExtensions>
+		<colorGenerator Class="ColorGenerator_StandardApparel" />
+		<tradeTags>
+			<li>Armor</li>
+		</tradeTags>
+	</ThingDef>
+
+	<ThingDef ParentName="TA_LamellarVest">
+		<defName>TA_LamellarVestLeather</defName>
+		<label>lamellar vest</label>
+		<description>.</description>
+		<graphicData>
+			<texPath>Apparel/Armor/TA_LamellarVest/TA_LamellarVest</texPath>
+		</graphicData>
+		<recipeMaker>
+			<researchPrerequisite>ComplexClothing</researchPrerequisite>
+			<unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
+		</recipeMaker>
+		<stuffCategories Inherit="False">
+			<li>Leathery</li>
+		</stuffCategories>
+		<statBases>
+			<MaxHitPoints>170</MaxHitPoints>
+			<WorkToMake>6000</WorkToMake>
+			<Bulk>15</Bulk>
+			<WornBulk>3.0</WornBulk>
+			<Mass>3.5</Mass>
+			<StuffEffectMultiplierArmor>7</StuffEffectMultiplierArmor>
+			<ArmorRating_Sharp>0.6</ArmorRating_Sharp>
+			<ArmorRating_Blunt>1.5</ArmorRating_Blunt>
+		</statBases>
+		<apparel>
+			<tags Inherit="False">
+				<li>Neolithic</li>
+				<li>MedievalMilitary</li>
+				<li>MedievalArmorBasic</li>
+			</tags>
+		</apparel>
+		<modExtensions Inherit="False">
+			<li Class="CombatExtended.PartialArmorExt">
+				<stats>
+					<li>
+						<ArmorRating_Sharp>0.70</ArmorRating_Sharp>
+						<parts>
+							<li>Neck</li>
+						</parts>
+					</li>
+					<li>
+						<ArmorRating_Blunt>0.70</ArmorRating_Blunt>
+						<parts>
+							<li>Neck</li>
+						</parts>
+					</li>
+				</stats>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+</Defs>
