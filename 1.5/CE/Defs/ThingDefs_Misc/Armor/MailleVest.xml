@@ -23,12 +23,12 @@
 		<costStuffCount>55</costStuffCount>
 		<equippedStatOffsets/>
 		<statBases>
-			<MaxHitPoints>200</MaxHitPoints>
-			<WorkToMake>10000</WorkToMake>
+			<MaxHitPoints>400</MaxHitPoints>
+			<WorkToMake>15000</WorkToMake>
 			<Bulk>6</Bulk>
 			<WornBulk>1</WornBulk>
 			<Mass>6</Mass>
-			<StuffEffectMultiplierArmor>1.65</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierArmor>1.75</StuffEffectMultiplierArmor>
 			<EquipDelay>5</EquipDelay>
 		</statBases>
 		<thingCategories>

@@ -24,7 +24,7 @@
 		</stuffCategories>
 		<statBases>
 			<MaxHitPoints>200</MaxHitPoints>
-			<WorkToMake>15000</WorkToMake>
+			<WorkToMake>12000</WorkToMake>
 			<Bulk>20</Bulk>
 			<WornBulk>3.0</WornBulk>
 			<Mass>6.0</Mass>

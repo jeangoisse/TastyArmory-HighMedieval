@@ -2,11 +2,11 @@
 <Defs>
 	<!-- ==================== Hauberk ==================== -->
 	<ThingDef ParentName="ArmorSmithableBase">
-		<defName>TC_MailleMittens</defName>
-		<label>maille mittens</label>
-		<description>Fingerless gloves covered with maille.</description>
+		<defName>TC_MailleHoses</defName>
+		<label>maille hoses</label>
+		<description>Hoses made of maille.</description>
 		<graphicData>
-			<texPath>Apparel/Limb/MailleMittens</texPath>
+			<texPath>Apparel/Limb/MailleHoses</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<recipeMaker>
@@ -23,11 +23,11 @@
 		<costStuffCount>20</costStuffCount>
 		<equippedStatOffsets></equippedStatOffsets>
 		<statBases>
-			<MaxHitPoints>100</MaxHitPoints>
-			<WorkToMake>4000</WorkToMake>
+			<MaxHitPoints>250</MaxHitPoints>
+			<WorkToMake>7000</WorkToMake>
 			<Bulk>2</Bulk>
 			<WornBulk>0.5</WornBulk>
-			<Mass>0.6</Mass>
+			<Mass>0.8</Mass>
 			<StuffEffectMultiplierArmor>1.7</StuffEffectMultiplierArmor>
 			<EquipDelay>1</EquipDelay>
 		</statBases>
@@ -36,11 +36,12 @@
 		</thingCategories>
 		<apparel>
 			<bodyPartGroups>
-				<li>Hands</li>
+				<li>Feet</li>
 			</bodyPartGroups>
 			<layers>
 				<li>Middle</li>
 				<li>Shell</li>
+				<li>TA_BootGlove</li>
 			</layers>
 			<tags>
 				<li>MedievalMilitary</li>
@@ -58,7 +59,7 @@
 					<li>
 						<ArmorRating_Blunt>0.50</ArmorRating_Blunt>
 						<parts>
-							<li>Hand</li>
+							<li>Foot</li>
 						</parts>
 					</li>
 				</stats>

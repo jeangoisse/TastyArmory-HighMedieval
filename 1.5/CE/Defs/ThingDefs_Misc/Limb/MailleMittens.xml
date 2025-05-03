@@ -2,15 +2,15 @@
 <Defs>
 	<!-- ==================== Hauberk ==================== -->
 	<ThingDef ParentName="ArmorSmithableBase">
-		<defName>TC_PlateBoots</defName>
-		<label>plated boots</label>
-		<description>Boots encased in overlapping plates.</description>
+		<defName>TC_MailleMittens</defName>
+		<label>maille mittens</label>
+		<description>Fingerless gloves covered with maille.</description>
 		<graphicData>
-			<texPath>Apparel/Limb/PlateBoots</texPath>
+			<texPath>Apparel/Limb/MailleMittens</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<recipeMaker>
-			<researchPrerequisite>PlateArmor</researchPrerequisite>
+			<researchPrerequisite>Smithing</researchPrerequisite>
 			<unfinishedThingDef>UnfinishedMetallicTechArmor</unfinishedThingDef>
 			<skillRequirements>
 				<Crafting>4</Crafting>
@@ -20,15 +20,15 @@
 		<stuffCategories>
 			<li>Steeled</li>
 		</stuffCategories>
-		<costStuffCount>25</costStuffCount>
+		<costStuffCount>20</costStuffCount>
 		<equippedStatOffsets></equippedStatOffsets>
 		<statBases>
-			<MaxHitPoints>100</MaxHitPoints>
-			<WorkToMake>5000</WorkToMake>
+			<MaxHitPoints>250</MaxHitPoints>
+			<WorkToMake>7000</WorkToMake>
 			<Bulk>2</Bulk>
 			<WornBulk>0.5</WornBulk>
-			<Mass>1</Mass>
-			<StuffEffectMultiplierArmor>2</StuffEffectMultiplierArmor>
+			<Mass>0.6</Mass>
+			<StuffEffectMultiplierArmor>1.7</StuffEffectMultiplierArmor>
 			<EquipDelay>1</EquipDelay>
 		</statBases>
 		<thingCategories>
@@ -36,11 +36,12 @@
 		</thingCategories>
 		<apparel>
 			<bodyPartGroups>
-				<li>Feet</li>
+				<li>Hands</li>
 			</bodyPartGroups>
 			<layers>
 				<li>Middle</li>
 				<li>Shell</li>
+				<li>TA_BootGlove</li>
 			</layers>
 			<tags>
 				<li>MedievalMilitary</li>
@@ -52,10 +53,29 @@
 				<li>Soldier</li>
 			</defaultOutfitTags>
 		</apparel>
+		<modExtensions>
+			<li Class="CombatExtended.PartialArmorExt">
+				<stats>
+					<li>
+						<ArmorRating_Blunt>0.50</ArmorRating_Blunt>
+						<parts>
+							<li>Hand</li>
+						</parts>
+					</li>
+				</stats>
+			</li>
+		</modExtensions>
 		<tradeTags>
 			<li>Clothing</li>
 			<li>Armor</li>
 		</tradeTags>
-		<colorGenerator Class="ColorGenerator_StandardApparel" />
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>(0.50,0.50,0.50)</only>
+        </li>
+      </options>
+    </colorGenerator>
 	</ThingDef>
 </Defs>

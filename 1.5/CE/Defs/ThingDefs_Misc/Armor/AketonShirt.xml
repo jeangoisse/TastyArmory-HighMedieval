@@ -3,7 +3,7 @@
 	<ThingDef ParentName="ApparelMakeableBase">
 		<defName>TC_ArmingDoublet</defName>
 		<label>arming doublet</label>
-		<description>Relatively thinly padded jacket and pants with attachment point for plate armor.</description>
+		<description>Relatively thin form fitted jacket worn under armor.</description>
 		<graphicData>
 			<texPath>Apparel/Clothes/ArmingDoublet/ArmingDoublet</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -29,7 +29,7 @@
 			<Mass>2</Mass>
 			<StuffEffectMultiplierArmor>4</StuffEffectMultiplierArmor>
 			<ArmorRating_Sharp>0.45</ArmorRating_Sharp>
-			<ArmorRating_Blunt>1.3</ArmorRating_Blunt>
+			<ArmorRating_Blunt>1</ArmorRating_Blunt>
 			<StuffEffectMultiplierInsulation_Cold>0.60</StuffEffectMultiplierInsulation_Cold>
 			<StuffEffectMultiplierInsulation_Heat>0.20</StuffEffectMultiplierInsulation_Heat>
 			<EquipDelay>6</EquipDelay>
