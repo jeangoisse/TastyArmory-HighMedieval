@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!--Scabbard-->
+  <ThingDef ParentName="ApparelCarryGearBase" MayRequire="CETeam.CombatExtended">
+    <defName>TA_SwordScabbard</defName>
+    <label>sword scabbard</label>
+    <description>Scabbard holding an arming sword, stylish and comfortable personal defense carry.</description>
+    <graphicData>
+      <texPath>Apparel/Accessories/TA_SwordScabbard/TA_SwordScabbard_ico</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+		<techLevel>Medieval</techLevel>
+		<recipeMaker>
+			<researchPrerequisite>LongBlades</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>4</Crafting>
+			</skillRequirements>
+      <recipeUsers>
+        <li>HandTailoringBench</li>
+        <li>ElectricTailoringBench</li>
+      </recipeUsers>
+		</recipeMaker>
+    <statBases>
+      <MaxHitPoints>120</MaxHitPoints>
+      <WorkToMake>5000</WorkToMake>
+      <Mass>0.5</Mass>
+      <Bulk MayRequire="CETeam.CombatExtended">7</Bulk>
+      <WornBulk MayRequire="CETeam.CombatExtended">0</WornBulk>
+      <EquipDelay>2</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <CarryBulk MayRequire="CETeam.CombatExtended">10</CarryBulk>
+    </equippedStatOffsets>
+    <costStuffCount>20</costStuffCount>
+    <stuffCategories>
+      <li>Leathery</li>
+    </stuffCategories>
+		<costList>
+			<WoodLog>10</WoodLog>
+		</costList>
+    <apparel>
+      <countsAsClothingForNudity>false</countsAsClothingForNudity>
+      <careIfWornByCorpse>false</careIfWornByCorpse>
+      <bodyPartGroups>
+        <li>Torso</li>
+      </bodyPartGroups>
+      <layers>
+        <li>Webbing</li>
+      </layers>
+      <tags>        
+				<li>Medieval</li>
+				<li>MedievalMilitary</li>
+				<li>MedievalArmorDecent</li>
+        <li MayRequire="Ludeon.RimWorld.Royalty">Royal</li>
+        <li MayRequire="Ludeon.RimWorld.Royalty">RoyalTier2</li>
+        <li MayRequire="Ludeon.RimWorld.Royalty">RoyalTier5</li>
+        <li MayRequire="Ludeon.RimWorld.Royalty">RoyalTier6</li>
+        <li MayRequire="Ludeon.RimWorld.Royalty">RoyalTier7</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+      <wornGraphicPath>Apparel/Accessories/TA_SwordScabbard/TA_SwordScabbard</wornGraphicPath>
+    </apparel>
+		<colorGenerator Class="ColorGenerator_StandardApparel" />
+  </ThingDef>
+
+</Defs>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<!--Greataxe-->
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName="TA_Greataxe"]/tools</xpath>
+		<value>
+			<tools>
+				<li Class="CombatExtended.ToolCE">
+					<label>handle</label>
+					<capacities>
+						<li>Poke</li>
+					</capacities>
+					<power>2</power>
+					<chanceFactor>0.1</chanceFactor>
+					<cooldownTime>1.5</cooldownTime>
+					<armorPenetrationBlunt>0.5</armorPenetrationBlunt>
+					<linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>head</label>
+					<capacities>
+						<li>Blunt</li>
+					</capacities>
+					<power>20</power>
+					<chanceFactor>0.3</chanceFactor>
+					<cooldownTime>2.73</cooldownTime>
+					<armorPenetrationBlunt>5.6</armorPenetrationBlunt>
+					<linkedBodyPartsGroup>Head</linkedBodyPartsGroup>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>edge</label>
+					<capacities>
+						<li>Cut</li>
+					</capacities>
+					<power>29</power>
+					<chanceFactor>1</chanceFactor>
+					<cooldownTime>2.37</cooldownTime>
+					<armorPenetrationBlunt>3.24</armorPenetrationBlunt>
+					<armorPenetrationSharp>0.85</armorPenetrationSharp>
+					<linkedBodyPartsGroup>Edge</linkedBodyPartsGroup>
+				</li>
+			</tools>
+		</value>
+	</Operation>
+	
+</Patch>

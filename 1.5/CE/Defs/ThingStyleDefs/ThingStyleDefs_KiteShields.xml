@@ -2,63 +2,63 @@
 <Defs>
   
 	<ThingStyleDef>
-		<defName>KiteShield_CrossDark</defName>
+		<defName>TA_Kite_CrossDark</defName>
 		<graphicData>
-			<texPath>Apparel/Shield/Kite/Kite_CrossDark</texPath>
+			<texPath>Apparel/Shield/TA_Kite/TA_Kite_CrossDark</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
 	</ThingStyleDef>
   
 	<ThingStyleDef>
-		<defName>KiteShield_CrossInvert</defName>
+		<defName>TA_Kite_CrossInvert</defName>
 		<graphicData>
-			<texPath>Apparel/Shield/Kite/Kite_CrossInvert</texPath>
+			<texPath>Apparel/Shield/TA_Kite/TA_Kite_CrossInvert</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
 	</ThingStyleDef>
   
 	<ThingStyleDef>
-		<defName>KiteShield_CrossWhite</defName>
+		<defName>TA_Kite_CrossWhite</defName>
 		<graphicData>
-			<texPath>Apparel/Shield/Kite/Kite_CrossWhite</texPath>
+			<texPath>Apparel/Shield/TA_Kite/TA_Kite_CrossWhite</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
 	</ThingStyleDef>
   
 	<ThingStyleDef>
-		<defName>KiteShield_CrossZigZagDark</defName>
+		<defName>TA_Kite_ZigzagDark</defName>
 		<graphicData>
-			<texPath>Apparel/Shield/Kite/Kite_ZigzagDark</texPath>
+			<texPath>Apparel/Shield/TA_Kite/TA_Kite_ZigzagDark</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
 	</ThingStyleDef>
 	
 	<ThingStyleDef>
-		<defName>KiteShield_CrossZigZagWhite</defName>
+		<defName>TA_Kite_ZigzagWhite</defName>
 		<graphicData>
-			<texPath>Apparel/Shield/Kite/Kite_ZigzagWhite</texPath>
+			<texPath>Apparel/Shield/TA_Kite/TA_Kite_ZigzagWhite</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
 	</ThingStyleDef>
 	
 	<ThingStyleDef>
-		<defName>KiteShield_SwirlDark</defName>
+		<defName>TA_Kite_SwirlDark</defName>
 		<graphicData>
-			<texPath>Apparel/Shield/Kite/Kite_SwirlDark</texPath>
+			<texPath>Apparel/Shield/TA_Kite/TA_Kite_SwirlDark</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
 	</ThingStyleDef>
 	
 	<ThingStyleDef>
-		<defName>KiteShield_SwirlWhite</defName>
+		<defName>TA_Kite_SwirlWhite</defName>
 		<graphicData>
-			<texPath>Apparel/Shield/Kite/Kite_SwirlWhite</texPath>
+			<texPath>Apparel/Shield/TA_Kite/TA_Kite_SwirlWhite</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>

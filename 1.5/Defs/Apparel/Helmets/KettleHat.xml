@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	<ThingDef ParentName="ArmorSmithableBase">
+		<defName>TA_KettleHat</defName>
+		<label>kettle hat</label>
+		<description>Simple steel helmet with a wide brim, protects face from overhead blows while leaving good visibility.</description>
+		<graphicData>
+			<texPath>Apparel/Helmets/TA_KettleHat/TA_KettleHat_ico</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<possessionCount>1</possessionCount>
+		<recipeMaker>
+			<researchPrerequisite>Smithing</researchPrerequisite>
+			<unfinishedThingDef>UnfinishedMetallicTechArmor</unfinishedThingDef>
+			<skillRequirements>
+				<Crafting>2</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<techLevel>Medieval</techLevel>
+		<costStuffCount>35</costStuffCount>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<statBases>
+			<MaxHitPoints>135</MaxHitPoints>
+			<WorkToMake>5000</WorkToMake>
+			<Bulk MayRequire="CETeam.CombatExtended">6</Bulk>
+			<Mass>1.4</Mass>
+			<StuffEffectMultiplierArmor>2.3</StuffEffectMultiplierArmor>
+			<Insulation_Cold>4</Insulation_Cold>
+			<EquipDelay>1</EquipDelay>
+		</statBases>
+		<equippedStatOffsets/>
+		<thingCategories>
+			<li>ApparelArmor</li>
+		</thingCategories>
+		<apparel>
+      <parentTagDef>ApparelHead</parentTagDef>
+			<bodyPartGroups>
+				<li>UpperHead</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Apparel/Helmets/TA_KettleHat/TA_KettleHat</wornGraphicPath>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+			<tags>
+				<li>MedievalMilitary</li>
+				<li>MedievalArmorBasic</li>
+				<li>MedievalArmorDecent</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+		</apparel>
+		<modExtensions>
+			<li Class="CombatExtended.PartialArmorExt" MayRequire="CETeam.CombatExtended">
+				<stats>
+					<li>
+						<ArmorRating_Sharp>0.35</ArmorRating_Sharp>
+						<parts>
+							<li>Eye</li>
+						</parts>
+					</li>
+					<li>
+						<ArmorRating_Blunt>0.35</ArmorRating_Blunt>
+						<parts>
+							<li>Eye</li>
+						</parts>
+					</li>
+				</stats>
+			</li>
+		</modExtensions>
+		<colorGenerator Class="ColorGenerator_StandardApparel" />
+		<tradeTags>
+			<li>Clothing</li>
+			<li>Armor</li>
+		</tradeTags>
+	</ThingDef>
+
+</Defs>

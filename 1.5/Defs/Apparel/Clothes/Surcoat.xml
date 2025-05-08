@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	<ThingDef ParentName="ApparelMakeableBase">
+		<defName>TA_Surcoat</defName>
+		<label>surcoat</label>
+		<description>A surcoat worn by knights over maille, for protection against the elements and identifications on the battlefield</description>
+		<graphicData>
+			<texPath>Apparel/Clothes/TA_Surcoat/TA_Surcoat_ico</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<possessionCount>1</possessionCount>
+		<recipeMaker>
+			<researchPrerequisite>ComplexClothing</researchPrerequisite>
+		</recipeMaker>
+		<smeltable>false</smeltable>
+		<techLevel>Medieval</techLevel>
+		<costStuffCount>45</costStuffCount>
+		<stuffCategories>
+			<li>Fabric</li>
+			<li>Leathery</li>
+		</stuffCategories>
+		<costList>
+			<Cloth>30</Cloth>
+		</costList>
+		<equippedStatOffsets>
+		</equippedStatOffsets>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToMake>5000</WorkToMake>
+			<Bulk MayRequire="CETeam.CombatExtended">2</Bulk>
+			<WornBulk MayRequire="CETeam.CombatExtended">0</WornBulk>
+			<Mass>1</Mass>
+			<StuffEffectMultiplierArmor>4</StuffEffectMultiplierArmor>
+			<ArmorRating_Sharp>0.25</ArmorRating_Sharp>
+			<ArmorRating_Blunt>1</ArmorRating_Blunt>
+			<StuffEffectMultiplierInsulation_Cold>0.7</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.3</StuffEffectMultiplierInsulation_Heat>
+			<EquipDelay>1</EquipDelay>
+		</statBases>
+		<thingCategories>
+			<li>ApparelArmor</li>
+		</thingCategories>
+		<apparel>
+			<drawData>
+				<defaultData>
+					<layer>23</layer>
+				</defaultData>
+			</drawData>
+			<shellRenderedBehindHead>true</shellRenderedBehindHead>
+			<developmentalStageFilter>Adult</developmentalStageFilter>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Shoulders</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Apparel/Clothes/TA_Surcoat/TA_Surcoat</wornGraphicPath>
+			<layers>
+				<li>Middle</li>
+			</layers>
+			<tags>
+				<li>MedievalMilitary</li>
+				<li>MedievalArmorBasic</li>
+				<li>MedievalArmorDecent</li>
+				<li MayRequire="Ludeon.RimWorld.Royalty">Royal</li>
+				<li MayRequire="Ludeon.RimWorld.Royalty">RoyalTier2</li>
+				<li MayRequire="Ludeon.RimWorld.Royalty">RoyalTier5</li>
+				<li MayRequire="Ludeon.RimWorld.Royalty">RoyalTier6</li>
+				<li MayRequire="Ludeon.RimWorld.Royalty">RoyalTier7</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_StandardApparel" />
+		<tradeTags>
+			<li>Clothing</li>
+			<li>Armor</li>
+		</tradeTags>
+	</ThingDef>
+</Defs>

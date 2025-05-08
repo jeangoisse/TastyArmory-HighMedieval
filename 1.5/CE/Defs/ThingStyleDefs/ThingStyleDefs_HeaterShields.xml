@@ -4,7 +4,7 @@
 	<ThingStyleDef>
 		<defName>HeaterShield_Checker</defName>
 		<graphicData>
-			<texPath>Apparel/Shield/Heater/Heater_Checker</texPath>
+			<texPath>Apparel/Shield/TA_Heater/TA_Heater_Checker</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
@@ -13,7 +13,7 @@
 	<ThingStyleDef>
 		<defName>HeaterShield_CrossDark</defName>
 		<graphicData>
-			<texPath>Apparel/Shield/Heater/Heater_CrossDark</texPath>
+			<texPath>Apparel/Shield/TA_Heater/TA_Heater_CrossDark</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
@@ -22,7 +22,7 @@
 	<ThingStyleDef>
 		<defName>HeaterShield_CrossInvert</defName>
 		<graphicData>
-			<texPath>Apparel/Shield/Heater/Heater_CrossInvert</texPath>
+			<texPath>Apparel/Shield/TA_Heater/TA_Heater_CrossInvert</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
@@ -31,7 +31,7 @@
 	<ThingStyleDef>
 		<defName>HeaterShield_CrossWhite</defName>
 		<graphicData>
-			<texPath>Apparel/Shield/Heater/Heater_CrossWhite</texPath>
+			<texPath>Apparel/Shield/TA_Heater/TA_Heater_CrossWhite</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
@@ -40,7 +40,7 @@
 	<ThingStyleDef>
 		<defName>HeaterShield_Eagle</defName>
 		<graphicData>
-			<texPath>Apparel/Shield/Heater/Heater_Eagle</texPath>
+			<texPath>Apparel/Shield/TA_Heater/TA_Heater_Eagle</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
@@ -49,7 +49,7 @@
 	<ThingStyleDef>
 		<defName>HeaterShield_Octa</defName>
 		<graphicData>
-			<texPath>Apparel/Shield/Heater/Heater_Octa</texPath>
+			<texPath>Apparel/Shield/TA_Heater/TA_Heater_Octa</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
@@ -58,7 +58,7 @@
 	<ThingStyleDef>
 		<defName>HeaterShield_QuadrantWhite</defName>
 		<graphicData>
-			<texPath>Apparel/Shield/Heater/Heater_QuadrantWhite</texPath>
+			<texPath>Apparel/Shield/TA_Heater/TA_Heater_QuadrantWhite</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
@@ -68,7 +68,7 @@
 	<ThingStyleDef>
 		<defName>HeaterShield_SlashDark</defName>
 		<graphicData>
-			<texPath>Apparel/Shield/Heater/Heater_SlashDark</texPath>
+			<texPath>Apparel/Shield/TA_Heater/TA_Heater_SlashDark</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
@@ -77,7 +77,7 @@
 	<ThingStyleDef>
 		<defName>HeaterShield_UpWhite</defName>
 		<graphicData>
-			<texPath>Apparel/Shield/Heater/Heater_UpWhite</texPath>
+			<texPath>Apparel/Shield/TA_Heater/TA_Heater_UpWhite</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>

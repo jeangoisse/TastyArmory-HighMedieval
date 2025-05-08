@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+		<defName>TA_ArmingSword</defName>
+		<label>sword</label>
+		<description>.</description>
+		<graphicData>
+			<texPath>Weapons/Melee/TA_Sword_mid</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1.05</drawSize>
+		</graphicData>
+		<equippedAngleOffset>40</equippedAngleOffset>
+		<techLevel>Medieval</techLevel>
+		<weaponTags Inherit="False">
+			<li>MedievalMeleeDecent</li>
+			<li>MedievalMeleeAdvanced</li>
+			<li>CE_OneHandedWeapon</li>
+		</weaponTags>
+		<weaponClasses>
+			<li>Melee</li>
+			<li>MeleePiercer</li>
+		</weaponClasses>
+		<recipeMaker>
+			<recipeUsers>
+				<li>FueledSmithy</li>
+				<li>ElectricSmithy</li>
+			</recipeUsers>
+			<researchPrerequisite>LongBlades</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>6</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<costStuffCount>75</costStuffCount>
+		<stuffCategories>
+			<li>Metallic_Weapon</li>
+		</stuffCategories>
+		<relicChance>1.5</relicChance>
+		<statBases>
+			<WorkToMake>20000</WorkToMake>
+			<Mass>1</Mass>
+			<Bulk MayRequire="CETeam.CombatExtended">8</Bulk>
+			<MeleeCounterParryBonus MayRequire="CETeam.CombatExtended">0.6</MeleeCounterParryBonus>
+		</statBases>
+		<equippedStatOffsets>
+			<MeleeCritChance MayRequire="CETeam.CombatExtended">0.4</MeleeCritChance>
+			<MeleeParryChance MayRequire="CETeam.CombatExtended">0.5</MeleeParryChance>
+			<MeleeDodgeChance MayRequire="CETeam.CombatExtended">0.3</MeleeDodgeChance>
+		</equippedStatOffsets>
+		<thingSetMakerTags>
+			<li>RewardStandardQualitySuper</li>
+		</thingSetMakerTags>
+		<tradeTags>
+			<li>WeaponMelee</li>
+		</tradeTags>
+		<tools>
+			<li Class="CombatExtended.ToolCE">
+				<label>handle</label>
+				<capacities>
+					<li>Poke</li>
+				</capacities>
+				<power>3</power>
+				<cooldownTime>1.29</cooldownTime>
+				<chanceFactor>0.05</chanceFactor>
+				<armorPenetrationBlunt>0.8</armorPenetrationBlunt>
+				<linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>
+			</li>
+			<li Class="CombatExtended.ToolCE">
+				<label>point</label>
+				<capacities>
+					<li>Stab</li>
+				</capacities>
+				<power>20</power>
+				<cooldownTime>1.46</cooldownTime>
+				<chanceFactor>0.5</chanceFactor>
+				<armorPenetrationBlunt>0.65</armorPenetrationBlunt>
+				<armorPenetrationSharp>1.60</armorPenetrationSharp>
+				<linkedBodyPartsGroup>Point</linkedBodyPartsGroup>
+			</li>
+			<li Class="CombatExtended.ToolCE">
+				<label>edge</label>
+				<capacities>
+					<li>Cut</li>
+				</capacities>
+				<power>22</power>
+				<cooldownTime>1.46</cooldownTime>
+				<chanceFactor>0.45</chanceFactor>
+				<armorPenetrationBlunt>1.15</armorPenetrationBlunt>
+				<armorPenetrationSharp>0.67</armorPenetrationSharp>
+				<linkedBodyPartsGroup>Edge</linkedBodyPartsGroup>
+			</li>
+		</tools>
+		<modExtensions>
+			<li Class="VFECore.ThingDefExtension" MayRequire="OskarPotocki.VanillaFactionsExpanded.Core">
+				<weaponDraftedDrawOffsets>
+					<north>
+						<drawOffset>(-0.1,0,-0.35)</drawOffset>
+						<angleOffset>0</angleOffset>
+					</north>
+					<east>
+						<drawOffset>(0.1,0,-0.35)</drawOffset>
+						<angleOffset>-20</angleOffset>
+					</east>
+					<south>
+						<drawOffset>(0.1,0,-0.35)</drawOffset>
+						<angleOffset>0</angleOffset>
+					</south>
+					<west>
+						<drawOffset>(-0.1,0,-0.35)</drawOffset>
+						<angleOffset>0</angleOffset>
+					</west>
+				</weaponDraftedDrawOffsets>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+</Defs>

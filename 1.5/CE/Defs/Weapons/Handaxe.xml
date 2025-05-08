@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+		<defName>TA_Handaxe</defName>
+		<label>hand axe</label>
+		<description>.</description>
+		<graphicData>
+			<texPath>Weapons/Melee/TA_Handaxe</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>0.85</drawSize>
+		</graphicData>
+		<equippedAngleOffset>-25</equippedAngleOffset>
+		<possessionCount>1</possessionCount>
+		<weaponClasses>
+			<li>Melee</li>
+		</weaponClasses>
+		<weaponTags>
+			<li>MedievalMeleeDecent</li>
+			<li>CE_OneHandedWeapon</li>
+		</weaponTags>
+		<stuffCategories>
+			<li>Metallic_Weapon</li>
+		</stuffCategories>
+		<costStuffCount>40</costStuffCount>
+		<costList>
+			<WoodLog>25</WoodLog>
+		</costList>
+		<recipeMaker>
+			<researchPrerequisite>Smithing</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>2</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<statBases>
+			<WorkToMake>12000</WorkToMake>
+			<Mass>1.2</Mass>
+			<Bulk MayRequire="CETeam.CombatExtended">4</Bulk>
+			<MeleeCounterParryBonus MayRequire="CETeam.CombatExtended">0.2</MeleeCounterParryBonus>
+		</statBases>
+		<equippedStatOffsets>
+			<MeleeCritChance MayRequire="CETeam.CombatExtended">0.13</MeleeCritChance>
+			<MeleeParryChance MayRequire="CETeam.CombatExtended">0.2</MeleeParryChance>
+			<MeleeDodgeChance MayRequire="CETeam.CombatExtended">0.20</MeleeDodgeChance>
+		</equippedStatOffsets>
+		<tools>
+			<li Class="CombatExtended.ToolCE">
+				<label>handle</label>
+				<capacities>
+					<li>Poke</li>
+				</capacities>
+				<power>3</power>
+				<cooldownTime>1.66</cooldownTime>
+				<chanceFactor>0.10</chanceFactor>
+				<armorPenetrationBlunt>0.75</armorPenetrationBlunt>
+				<linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>
+			</li>
+			<li Class="CombatExtended.ToolCE">
+				<label>edge</label>
+				<capacities>
+					<li>Cut</li>
+				</capacities>
+				<power>25</power>
+				<cooldownTime>2.47</cooldownTime>
+				<armorPenetrationBlunt>4.69</armorPenetrationBlunt>
+				<armorPenetrationSharp>1.57</armorPenetrationSharp>
+				<linkedBodyPartsGroup>Edge</linkedBodyPartsGroup>
+			</li>
+		</tools>
+		<thingSetMakerTags>
+			<li>RewardStandardQualitySuper</li>
+		</thingSetMakerTags>
+		<modExtensions>
+			<li Class="CombatExtended.GunDrawExtension">
+				<DrawOffset>0.1,-0.1</DrawOffset>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+</Defs>

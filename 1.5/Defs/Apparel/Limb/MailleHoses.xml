@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	<!-- ==================== Hauberk ==================== -->
+	<ThingDef ParentName="ArmorSmithableBase">
+		<defName>TA_MailleHoses</defName>
+		<label>maille hoses</label>
+		<description>Hoses made of maille.</description>
+		<graphicData>
+			<texPath>Apparel/Limb/TA_MailleHoses</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<recipeMaker>
+			<researchPrerequisite>Smithing</researchPrerequisite>
+			<unfinishedThingDef>UnfinishedMetallicTechArmor</unfinishedThingDef>
+			<skillRequirements>
+				<Crafting>4</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<techLevel>Medieval</techLevel>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costStuffCount>30</costStuffCount>
+		<equippedStatOffsets></equippedStatOffsets>
+		<statBases>
+			<MaxHitPoints>250</MaxHitPoints>
+			<WorkToMake>8000</WorkToMake>
+			<Bulk MayRequire="CETeam.CombatExtended">2</Bulk>
+			<WornBulk MayRequire="CETeam.CombatExtended">0.5</WornBulk>
+			<Mass>1.4</Mass>
+			<StuffEffectMultiplierArmor>1.7</StuffEffectMultiplierArmor>
+			<EquipDelay>1</EquipDelay>
+		</statBases>
+		<thingCategories>
+			<li>ApparelArmor</li>
+		</thingCategories>
+		<apparel>
+			<careIfWornByCorpse>false</careIfWornByCorpse>
+			<bodyPartGroups>
+				<li>Feet</li>
+			</bodyPartGroups>
+			<layers>
+				<li>Middle</li>
+				<li>Shell</li>
+				<li>TA_BootGlove</li>
+			</layers>
+			<tags>
+				<li>MedievalMilitary</li>
+				<li>MedievalArmorBasic</li>
+				<li>MedievalArmorDecent</li>
+				<li MayRequire="Ludeon.RimWorld.Royalty">Royal</li>
+				<li MayRequire="Ludeon.RimWorld.Royalty">RoyalTier2</li>
+				<li MayRequire="Ludeon.RimWorld.Royalty">RoyalTier5</li>
+				<li MayRequire="Ludeon.RimWorld.Royalty">RoyalTier6</li>
+				<li MayRequire="Ludeon.RimWorld.Royalty">RoyalTier7</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+		</apparel>
+		<modExtensions>
+			<li Class="CombatExtended.PartialArmorExt" MayRequire="CETeam.CombatExtended">
+				<stats>
+					<li>
+						<ArmorRating_Blunt>0.65</ArmorRating_Blunt>
+						<parts>
+							<li>Foot</li>
+						</parts>
+					</li>
+				</stats>
+			</li>
+		</modExtensions>
+		<tradeTags>
+			<li>Clothing</li>
+			<li>Armor</li>
+		</tradeTags>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>(0.50,0.50,0.50)</only>
+        </li>
+      </options>
+    </colorGenerator>
+	</ThingDef>
+</Defs>

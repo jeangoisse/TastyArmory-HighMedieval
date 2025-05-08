@@ -4,7 +4,7 @@
 	<ThingStyleDef>
 		<defName>RoundShield_3SwirlDark</defName>
 		<graphicData>
-			<texPath>Apparel/Shield/Round/Round_3SwirlDark</texPath>
+			<texPath>Apparel/Shield/TA_Round/TA_Round_3SwirlDark</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
@@ -13,7 +13,7 @@
 	<ThingStyleDef>
 		<defName>RoundShield_3SwirlWhite</defName>
 		<graphicData>
-			<texPath>Apparel/Shield/Round/Round_3SwirlWhite</texPath>
+			<texPath>Apparel/Shield/TA_Round/TA_Round_3SwirlWhite</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
@@ -22,7 +22,7 @@
 	<ThingStyleDef>
 		<defName>RoundShield_4SwirlDark</defName>
 		<graphicData>
-			<texPath>Apparel/Shield/Round/Round_4SwirlDark</texPath>
+			<texPath>Apparel/Shield/TA_Round/TA_Round_4SwirlDark</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
@@ -31,7 +31,7 @@
 	<ThingStyleDef>
 		<defName>RoundShield_4SwirlWhite</defName>
 		<graphicData>
-			<texPath>Apparel/Shield/Round/Round_4SwirlWhite</texPath>
+			<texPath>Apparel/Shield/TA_Round/TA_Round_4SwirlWhite</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
@@ -40,7 +40,7 @@
 	<ThingStyleDef>
 		<defName>RoundShield_CrossDark</defName>
 		<graphicData>
-			<texPath>Apparel/Shield/Round/Round_CrossDark</texPath>
+			<texPath>Apparel/Shield/TA_Round/TA_Round_CrossDark</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
@@ -49,7 +49,7 @@
 	<ThingStyleDef>
 		<defName>RoundShield_CrossWhite</defName>
 		<graphicData>
-			<texPath>Apparel/Shield/Round/Round_CrossWhite</texPath>
+			<texPath>Apparel/Shield/TA_Round/TA_Round_CrossWhite</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
@@ -58,7 +58,7 @@
 	<ThingStyleDef>
 		<defName>RoundShield_QuadrantDark</defName>
 		<graphicData>
-			<texPath>Apparel/Shield/Round/Round_QuadrantDark</texPath>
+			<texPath>Apparel/Shield/TA_Round/TA_Round_QuadrantDark</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
@@ -67,7 +67,7 @@
 	<ThingStyleDef>
 		<defName>RoundShield_QuadrantWhite</defName>
 		<graphicData>
-			<texPath>Apparel/Shield/Round/Round_QuadrantWhite</texPath>
+			<texPath>Apparel/Shield/TA_Round/TA_Round_QuadrantWhite</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>

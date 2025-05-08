@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	<ThingDef ParentName="ApparelMakeableBase">
+		<defName>TA_CoifMaille</defName>
+		<label>maille coif</label>
+		<description>Coif made of fine ring maille, protects face and neck well from cuts.</description>
+		<graphicData>
+			<texPath>Apparel/Helmets/TA_CoifMaille/TA_CoifMaille_ico</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<possessionCount>1</possessionCount>
+		<recipeMaker>
+			<researchPrerequisite>Smithing</researchPrerequisite>
+		</recipeMaker>
+		<smeltable>false</smeltable>
+		<techLevel>Medieval</techLevel>
+		<costStuffCount>25</costStuffCount>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costList>
+			<Cloth>20</Cloth>
+		</costList>
+		<equippedStatOffsets>
+		</equippedStatOffsets>
+		<statBases>
+			<MaxHitPoints>250</MaxHitPoints>
+			<WorkToMake>8000</WorkToMake>
+			<Bulk MayRequire="CETeam.CombatExtended">1</Bulk>
+			<Mass>1.6</Mass>
+			<StuffEffectMultiplierArmor>1.4</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.4</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.3</StuffEffectMultiplierInsulation_Heat>
+			<EquipDelay>1</EquipDelay>
+		</statBases>
+		<thingCategories>
+			<li>Headgear</li>
+		</thingCategories>
+		<apparel>
+			<careIfWornByCorpse>false</careIfWornByCorpse>
+			<parentTagDef>ApparelHead</parentTagDef>
+			<developmentalStageFilter>Child, Adult</developmentalStageFilter>
+			<bodyPartGroups>
+				<li>UpperHead</li>
+				<li>Neck</li>
+				<li>Teeth</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Apparel/Helmets/TA_CoifMaille/TA_CoifMaille</wornGraphicPath>
+			<layers>
+				<li>OnHead</li>
+			</layers>
+			<tags>
+				<li>MedievalMilitary</li>
+				<li>MedievalArmorBasic</li>
+				<li>MedievalArmorDecent</li>
+				<li MayRequire="Ludeon.RimWorld.Royalty">Royal</li>
+				<li MayRequire="Ludeon.RimWorld.Royalty">RoyalTier2</li>
+				<li MayRequire="Ludeon.RimWorld.Royalty">RoyalTier5</li>
+				<li MayRequire="Ludeon.RimWorld.Royalty">RoyalTier6</li>
+				<li MayRequire="Ludeon.RimWorld.Royalty">RoyalTier7</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_StandardApparel" />
+		<tradeTags>
+			<li>Clothing</li>
+			<li>Armor</li>
+		</tradeTags>
+	</ThingDef>
+</Defs>
