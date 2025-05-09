@@ -1,4 +1,8 @@
 # TastyArmory-HighAFMedieval
  TastyArmory-HighAFMedieval
 
-TODO: rotate kite shield texture more vertical and give thicker outline according to drawsize, apply to other mods too
+TODO: 
+-kite shield thicker outline according to drawsize
+-apply rendernode to other mods too, add more shading to base sprite i guess
+-finish melee tools patch
+-add ranged weapons

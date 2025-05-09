@@ -54,41 +54,30 @@
 			<li>WeaponMelee</li>
 		</tradeTags>
 		<tools>
-			<li Class="CombatExtended.ToolCE">
+			<li>
 				<label>handle</label>
 				<capacities>
-					<li>Poke</li>
+					<li>Blunt</li>
 				</capacities>
-				<power>3</power>
-				<cooldownTime>1.29</cooldownTime>
-				<chanceFactor>0.05</chanceFactor>
-				<armorPenetrationBlunt>0.8</armorPenetrationBlunt>
-				<linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>
+				<power>7</power>
+				<cooldownTime>2</cooldownTime>
 			</li>
-			<li Class="CombatExtended.ToolCE">
+			 <li>
 				<label>point</label>
 				<capacities>
-					<li>Stab</li>
+				  <li>Stab</li>
 				</capacities>
-				<power>20</power>
-				<cooldownTime>1.46</cooldownTime>
-				<chanceFactor>0.5</chanceFactor>
-				<armorPenetrationBlunt>0.65</armorPenetrationBlunt>
-				<armorPenetrationSharp>1.2</armorPenetrationSharp>
-				<linkedBodyPartsGroup>Point</linkedBodyPartsGroup>
-			</li>
-			<li Class="CombatExtended.ToolCE">
+				<power>18</power>
+				<cooldownTime>1.55</cooldownTime>
+			  </li>
+			  <li>
 				<label>edge</label>
 				<capacities>
-					<li>Cut</li>
+				  <li>Cut</li>
 				</capacities>
-				<power>22</power>
-				<cooldownTime>1.46</cooldownTime>
-				<chanceFactor>0.45</chanceFactor>
-				<armorPenetrationBlunt>1.15</armorPenetrationBlunt>
-				<armorPenetrationSharp>0.67</armorPenetrationSharp>
-				<linkedBodyPartsGroup>Edge</linkedBodyPartsGroup>
-			</li>
+				<power>16</power>
+				<cooldownTime>2.1</cooldownTime>
+			  </li>
 		</tools>
 		<modExtensions MayRequire="CETeam.CombatExtended">
 			<li Class="CombatExtended.GunDrawExtension">

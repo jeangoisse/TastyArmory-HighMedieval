@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
+	<ThingStyleDef>
+		<defName>TA_SwordScabbardSling</defName>
+		<wornGraphicPath>Apparel/Accessories/TA_SwordScabbardSling/TA_SwordScabbardSling</wornGraphicPath>
+		<graphicData>
+			<texPath>Apparel/Accessories/TA_SwordScabbardSling/TA_SwordScabbardSling_ico</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+	</ThingStyleDef>
+
   <!--Scabbard-->
   <ThingDef ParentName="ApparelCarryGearBase" MayRequire="CETeam.CombatExtended">
     <defName>TA_SwordScabbard</defName>
@@ -11,6 +21,12 @@
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>CutoutComplex</shaderType>
     </graphicData>
+		<randomStyleChance>0.45</randomStyleChance>
+		<randomStyle>
+			<li>
+				<styleDef>TA_SwordScabbardSling</styleDef>
+			</li>
+		</randomStyle>
 		<techLevel>Medieval</techLevel>
 		<recipeMaker>
 			<researchPrerequisite>LongBlades</researchPrerequisite>

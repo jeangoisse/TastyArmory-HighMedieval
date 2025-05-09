@@ -4,31 +4,27 @@
 	<ThingStyleDef>
 		<defName>TA_GreathelmBrassed</defName>
 		<wornGraphicPath>Apparel/Helmets/TA_GreathelmBrassed/TA_GreathelmBrassed</wornGraphicPath>
-		<useWornGraphicMask>true</useWornGraphicMask>
 		<graphicData>
 			<texPath>Apparel/Helmets/TA_GreathelmBrassed/TA_GreathelmBrassed_ico</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<!--shaderType>CutoutComplex</shaderType-->
+			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
 	</ThingStyleDef>
 	<ThingStyleDef>
 		<defName>TA_EnclosedHelmet</defName>
 		<wornGraphicPath>Apparel/Helmets/TA_EnclosedHelmet/TA_EnclosedHelmet</wornGraphicPath>
-		<useWornGraphicMask>false</useWornGraphicMask>
 		<graphicData>
 			<texPath>Apparel/Helmets/TA_EnclosedHelmet/TA_EnclosedHelmet_ico</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<!--shaderType>CutoutComplex</shaderType-->
 		</graphicData>
 	</ThingStyleDef>
 	<ThingStyleDef>
 		<defName>TA_EnclosedHelmetBrassed</defName>
 		<wornGraphicPath>Apparel/Helmets/TA_EnclosedHelmetBrassed/TA_EnclosedHelmetBrassed</wornGraphicPath>
-		<useWornGraphicMask>true</useWornGraphicMask>
 		<graphicData>
 			<texPath>Apparel/Helmets/TA_EnclosedHelmetBrassed/TA_EnclosedHelmetBrassed_ico</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<!--shaderType>CutoutComplex</shaderType-->
+			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
 	</ThingStyleDef>
 
@@ -89,6 +85,7 @@
 			<bodyPartGroups>
 				<li>FullHead</li>
 			</bodyPartGroups>
+			<useWornGraphicMask>true</useWornGraphicMask>
 			<wornGraphicPath>Apparel/Helmets/TA_Greathelm/TA_Greathelm</wornGraphicPath>
 			<layers>
 				<li>Overhead</li>

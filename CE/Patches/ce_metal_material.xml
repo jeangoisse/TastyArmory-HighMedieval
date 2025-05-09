@@ -21,7 +21,7 @@
 
       <Operation Class="PatchOperationReplace">
 		<xpath>Defs/ThingDef[
-            defName="TA_GreatAxe"]/stuffCategories</xpath>
+            defName="TA_Greataxe"]/stuffCategories</xpath>
 		<value>
 			<stuffCategories>
                 <li>Metallic_Weapon</li>
@@ -29,12 +29,5 @@
 		</value>
 	</Operation>
 
-      
-	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/ThingDef[@ParentName="BaseMeleeWeapon_Sharp" or @ParentName="BaseMeleeWeapon_Blunt" or @ParentName="BaseMeleeWeapon_Sharp_Quality" or @ParentName="BaseMeleeWeapon_Blunt_Quality"]/stuffCategories/li[.="Metallic"]</xpath>
-		<value>
-			<li>Metallic_Weapon</li>
-		</value>
-	</Operation>
       
 </Patch>
