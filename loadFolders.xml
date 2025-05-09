@@ -2,9 +2,8 @@
 
 <loadFolders>
 	<v1.5>
-		<li>Common</li>
-		<li IfModActive="CETeam.CombatExtended">1.5/CE</li>
-		<li IfModNotActive="CETeam.CombatExtended">1.5/Vanilla</li>
-		<li IfModNotActive="CETeam.CombatExtended" IfModActive="oskarpotocki.vanillafactionsexpanded.core">1.5/VEF</li>
+		<li>/</li>
+		<li IfModActive="CETeam.CombatExtended">CE</li>
+		<li IfModNotActive="CETeam.CombatExtended">Vanilla</li>
 	</v1.5>
 </loadFolders>

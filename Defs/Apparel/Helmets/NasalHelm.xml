@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	<ThingDef ParentName="ArmorSmithableBase" Name="TA_NasalBase" Abstract="True">
+		<possessionCount>1</possessionCount>
+		<recipeMaker>
+			<researchPrerequisite>Smithing</researchPrerequisite>
+			<unfinishedThingDef>UnfinishedMetallicTechArmor</unfinishedThingDef>
+			<skillRequirements>
+				<Crafting>2</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<techLevel>Medieval</techLevel>
+		<costStuffCount>30</costStuffCount>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<statBases>
+			<Bulk MayRequire="CETeam.CombatExtended">6</Bulk>
+			<WornBulk MayRequire="CETeam.CombatExtended">1</WornBulk>
+			<Insulation_Cold>4</Insulation_Cold>
+			<EquipDelay>1</EquipDelay>
+		</statBases>
+		<equippedStatOffsets/>
+		<thingCategories>
+			<li>ApparelArmor</li>
+		</thingCategories>
+		<apparel>
+			<parentTagDef>ApparelHead</parentTagDef>
+			<bodyPartGroups>
+				<li>FullHead</li>
+			</bodyPartGroups>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+			<tags>
+				<li>MedievalMilitary</li>
+				<li>MedievalArmorBasic</li>
+				<li>MedievalArmorDecent</li>
+				<li MayRequire="Ludeon.RimWorld.Royalty">Royal</li>
+				<li MayRequire="Ludeon.RimWorld.Royalty">RoyalTier2</li>
+			</tags>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_StandardApparel" />
+		<tradeTags>
+			<li>Clothing</li>
+			<li>Armor</li>
+		</tradeTags>
+	</ThingDef>
+
+	<ThingDef ParentName="TA_NasalBase">
+		<defName>TA_NasalHelm</defName>
+		<label>nasal helm</label>
+		<description>Helmet made of iron plates attached into a conical shape, fitted with a nose guard</description>
+		<graphicData>
+			<texPath>Apparel/Helmets/TA_NasalHelm/TA_NasalHelm_ico</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<costStuffCount>30</costStuffCount>
+		<statBases>
+			<MaxHitPoints>120</MaxHitPoints>
+			<WorkToMake>5000</WorkToMake>
+			<Mass>1.2</Mass>
+			<StuffEffectMultiplierArmor>2</StuffEffectMultiplierArmor>
+		</statBases>
+		<equippedStatOffsets/>
+		<thingCategories>
+			<li>ApparelArmor</li>
+		</thingCategories>
+		<apparel>
+			<wornGraphicPath>Apparel/Helmets/TA_NasalHelm/TA_NasalHelm</wornGraphicPath>
+		</apparel>
+		<modExtensions>
+			<li Class="CombatExtended.PartialArmorExt" MayRequire="CETeam.CombatExtended">
+				<stats>
+					<li>
+						<ArmorRating_Sharp>0.8</ArmorRating_Sharp>
+						<parts>
+							<li>Nose</li>
+						</parts>
+					</li>
+					<li>
+						<ArmorRating_Blunt>0.8</ArmorRating_Blunt>
+						<parts>
+							<li>Nose</li>
+						</parts>
+					</li>
+					<li>
+						<ArmorRating_Sharp>0.2</ArmorRating_Sharp>
+						<parts>
+							<li>Eye</li>
+						</parts>
+					</li>
+					<li>
+						<ArmorRating_Blunt>0.2</ArmorRating_Blunt>
+						<parts>
+							<li>Eye</li>
+						</parts>
+					</li>
+					<li>
+						<ArmorRating_Sharp>0</ArmorRating_Sharp>
+						<parts>
+							<li>Jaw</li>
+						</parts>
+					</li>
+					<li>
+						<ArmorRating_Blunt>0</ArmorRating_Blunt>
+						<parts>
+							<li>Jaw</li>
+						</parts>
+					</li>
+				</stats>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	
+	<ThingDef ParentName="TA_NasalBase">
+		<defName>TA_SpectacleHelm</defName>
+		<label>spectacle helm</label>
+		<description>Helmet made of iron plates attached into a conical shape, fitted with a nose guard and rings around the eyes, moderate amount of face protection</description>
+		<graphicData>
+			<texPath>Apparel/Helmets/TA_SpectacleHelm/TA_SpectacleHelm_ico</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<costStuffCount>35</costStuffCount>
+		<statBases>
+			<MaxHitPoints>130</MaxHitPoints>
+			<WorkToMake>6000</WorkToMake>
+			<Mass>1.4</Mass>
+			<StuffEffectMultiplierArmor>2</StuffEffectMultiplierArmor>
+		</statBases>
+		<equippedStatOffsets/>
+		<thingCategories>
+			<li>ApparelArmor</li>
+		</thingCategories>
+		<apparel>
+			<wornGraphicPath>Apparel/Helmets/TA_SpectacleHelm/TA_SpectacleHelm</wornGraphicPath>
+		</apparel>
+		<modExtensions>
+			<li Class="CombatExtended.PartialArmorExt" MayRequire="CETeam.CombatExtended">
+				<stats>
+					<li>
+						<ArmorRating_Sharp>0.8</ArmorRating_Sharp>
+						<parts>
+							<li>Nose</li>
+						</parts>
+					</li>
+					<li>
+						<ArmorRating_Blunt>0.8</ArmorRating_Blunt>
+						<parts>
+							<li>Nose</li>
+						</parts>
+					</li>
+					<li>
+						<ArmorRating_Sharp>0.7</ArmorRating_Sharp>
+						<parts>
+							<li>Eye</li>
+						</parts>
+					</li>
+					<li>
+						<ArmorRating_Blunt>0.7</ArmorRating_Blunt>
+						<parts>
+							<li>Eye</li>
+						</parts>
+					</li>
+					<li>
+						<ArmorRating_Sharp>0.15</ArmorRating_Sharp>
+						<parts>
+							<li>Jaw</li>
+						</parts>
+					</li>
+					<li>
+						<ArmorRating_Blunt>0.15</ArmorRating_Blunt>
+						<parts>
+							<li>Jaw</li>
+						</parts>
+					</li>
+				</stats>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+
+
+</Defs>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<ThingStyleDef>
+		<defName>TA_GreathelmBrassed</defName>
+		<wornGraphicPath>Apparel/Helmets/TA_Style_Dress_Arnheid/TA_Style_Dress_Arnheid</wornGraphicPath>
+		<useWornGraphicMask>true</useWornGraphicMask>
+		<graphicData>
+			<texPath>Apparel/Helmets/TA_GreathelmBrassed/TA_GreathelmBrassed_ico</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<!--shaderType>CutoutComplex</shaderType-->
+		</graphicData>
+	</ThingStyleDef>
+	<ThingStyleDef>
+		<defName>TA_EnclosedHelmet</defName>
+		<wornGraphicPath>Apparel/Helmets/TA_EnclosedHelmet/TA_EnclosedHelmet</wornGraphicPath>
+		<useWornGraphicMask>false</useWornGraphicMask>
+		<graphicData>
+			<texPath>Apparel/Helmets/TA_EnclosedHelmet/TA_EnclosedHelmet_ico</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<!--shaderType>CutoutComplex</shaderType-->
+		</graphicData>
+	</ThingStyleDef>
+	<ThingStyleDef>
+		<defName>TA_EnclosedHelmetBrassed</defName>
+		<wornGraphicPath>Apparel/Helmets/TA_EnclosedHelmetBrassed/TA_EnclosedHelmetBrassed</wornGraphicPath>
+		<useWornGraphicMask>true</useWornGraphicMask>
+		<graphicData>
+			<texPath>Apparel/Helmets/TA_EnclosedHelmetBrassed/TA_EnclosedHelmetBrassed_ico</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<!--shaderType>CutoutComplex</shaderType-->
+		</graphicData>
+	</ThingStyleDef>
+
+	<ThingDef ParentName="ArmorSmithableBase">
+		<defName>TA_Greathelm</defName>
+		<label>greathelm</label>
+		<description>Large, thick, fully enclosed helmet. While rather cumbersome and significantly restricts wearer's field of view and breathing, it provides great protection for a heavily armored rider.</description>
+		<graphicData>
+			<texPath>Apparel/Helmets/TA_Greathelm/TA_Greathelm</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<randomStyleChance>0.65</randomStyleChance>
+		<randomStyle>
+			<li>
+				<chance>1</chance>
+				<styleDef>TA_GreathelmBrassed</styleDef>
+			</li>
+			<li>
+				<chance>5</chance>
+				<styleDef>TA_EnclosedHelmet</styleDef>
+			</li>
+			<li>
+				<chance>1</chance>
+				<styleDef>TA_EnclosedHelmetBrassed</styleDef>
+			</li>
+		</randomStyle>
+		<possessionCount>1</possessionCount>
+		<recipeMaker>
+			<researchPrerequisite>Smithing</researchPrerequisite>
+			<unfinishedThingDef>UnfinishedMetallicTechArmor</unfinishedThingDef>
+			<skillRequirements>
+				<Crafting>3</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<techLevel>Medieval</techLevel>
+		<costStuffCount>60</costStuffCount>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<statBases>
+			<MaxHitPoints>150</MaxHitPoints>
+			<WorkToMake>12000</WorkToMake>
+			<Bulk MayRequire="CETeam.CombatExtended">6</Bulk>
+			<Mass>2.5</Mass>
+			<StuffEffectMultiplierArmor>2.7</StuffEffectMultiplierArmor>
+			<Insulation_Cold>6</Insulation_Cold>
+			<EquipDelay>1</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<AimingAccuracy MayRequire="CETeam.CombatExtended">-0.6</AimingAccuracy>
+			<MeleeHitChance MayRequire="CETeam.CombatExtended">-2.5</MeleeHitChance>
+		</equippedStatOffsets>
+		<thingCategories>
+			<li>ApparelArmor</li>
+		</thingCategories>
+		<apparel>
+      <parentTagDef>ApparelHead</parentTagDef>
+			<bodyPartGroups>
+				<li>FullHead</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Apparel/Helmets/Greathelm/Greathelm</wornGraphicPath>
+			<layers>
+				<li>Overhead</li>
+				<li>StrappedHead</li>
+			</layers>
+			<tags>
+				<li>MedievalArmorDecent</li>
+				<li MayRequire="Ludeon.RimWorld.Royalty">Royal</li>
+				<li MayRequire="Ludeon.RimWorld.Royalty">RoyalTier2</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+		</apparel>
+		<modExtensions>
+			<li Class="CombatExtended.PartialArmorExt" MayRequire="CETeam.CombatExtended">
+				<stats>
+					<li>
+						<ArmorRating_Sharp>0.75</ArmorRating_Sharp>
+						<parts>
+							<li>Eye</li>
+						</parts>
+					</li>
+					<li>
+						<ArmorRating_Blunt>0.75</ArmorRating_Blunt>
+						<parts>
+							<li>Eye</li>
+						</parts>
+					</li>
+				</stats>
+			</li>
+		</modExtensions>
+		<tradeTags>
+			<li>Clothing</li>
+			<li>Armor</li>
+		</tradeTags>
+	</ThingDef>
+
+</Defs>
