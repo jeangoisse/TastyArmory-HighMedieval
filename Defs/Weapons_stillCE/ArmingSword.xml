@@ -8,9 +8,9 @@
 		<graphicData>
 			<texPath>Weapons/Melee/TA_Sword_mid</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>1.05</drawSize>
+			<drawSize>1.0</drawSize>
 		</graphicData>
-		<equippedAngleOffset>40</equippedAngleOffset>
+		<equippedAngleOffset>-25</equippedAngleOffset>
 		<techLevel>Medieval</techLevel>
 		<weaponTags Inherit="False">
 			<li>MedievalMeleeDecent</li>
@@ -74,7 +74,7 @@
 				<cooldownTime>1.46</cooldownTime>
 				<chanceFactor>0.5</chanceFactor>
 				<armorPenetrationBlunt>0.65</armorPenetrationBlunt>
-				<armorPenetrationSharp>1.60</armorPenetrationSharp>
+				<armorPenetrationSharp>1.2</armorPenetrationSharp>
 				<linkedBodyPartsGroup>Point</linkedBodyPartsGroup>
 			</li>
 			<li Class="CombatExtended.ToolCE">
@@ -90,26 +90,9 @@
 				<linkedBodyPartsGroup>Edge</linkedBodyPartsGroup>
 			</li>
 		</tools>
-		<modExtensions>
-			<li Class="VFECore.ThingDefExtension" MayRequire="OskarPotocki.VanillaFactionsExpanded.Core">
-				<weaponDraftedDrawOffsets>
-					<north>
-						<drawOffset>(-0.1,0,-0.35)</drawOffset>
-						<angleOffset>0</angleOffset>
-					</north>
-					<east>
-						<drawOffset>(0.1,0,-0.35)</drawOffset>
-						<angleOffset>-20</angleOffset>
-					</east>
-					<south>
-						<drawOffset>(0.1,0,-0.35)</drawOffset>
-						<angleOffset>0</angleOffset>
-					</south>
-					<west>
-						<drawOffset>(-0.1,0,-0.35)</drawOffset>
-						<angleOffset>0</angleOffset>
-					</west>
-				</weaponDraftedDrawOffsets>
+		<modExtensions MayRequire="CETeam.CombatExtended">
+			<li Class="CombatExtended.GunDrawExtension">
+				<DrawOffset>0.1,-0.1</DrawOffset>
 			</li>
 		</modExtensions>
 	</ThingDef>

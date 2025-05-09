@@ -70,7 +70,7 @@
 		<thingSetMakerTags>
 			<li>RewardStandardQualitySuper</li>
 		</thingSetMakerTags>
-		<modExtensions>
+		<modExtensions MayRequire="CETeam.CombatExtended">
 			<li Class="CombatExtended.GunDrawExtension">
 				<DrawOffset>0.1,-0.1</DrawOffset>
 			</li>

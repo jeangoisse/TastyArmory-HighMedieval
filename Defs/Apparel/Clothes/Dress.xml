@@ -2,9 +2,9 @@
 <Defs>
 	<ThingStyleDef>
 		<defName>TA_Dress_Arnheid</defName>
-		<wornGraphicPath>Apparel/Clothes/TA_Style_Dress_Arnheid/TA_Style_Dress_Arnheid</wornGraphicPath>
+		<wornGraphicPath>Apparel/Clothes/TA_DressArnheid/TA_DressArnheid</wornGraphicPath>
 		<graphicData>
-			<texPath>Apparel/Clothes/TA_Style_Dress_Arnheid/TA_Style_Dress_Arnheid_ico</texPath>
+			<texPath>Apparel/Clothes/TA_DressArnheid/TA_DressArnheid_ico</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>

@@ -5,7 +5,7 @@
 		<label>aketon</label>
 		<description>Relatively thin form fitted jacket worn under armor.</description>
 		<graphicData>
-			<texPath>Apparel/Clothes/ArmingDoublet/ArmingDoublet</texPath>
+			<texPath>Apparel/Armor/TA_AketonShirt/TA_AketonShirt_ico</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<possessionCount>1</possessionCount>
@@ -44,7 +44,7 @@
 				<li>Arms</li>
 				<li>Legs</li>
 			</bodyPartGroups>
-			<wornGraphicPath>Apparel/Clothes/ArmingDoublet/ArmingDoublet</wornGraphicPath>
+			<wornGraphicPath>Apparel/Armor/TA_AketonShirt/TA_AketonShirt</wornGraphicPath>
 			<layers>
 				<li>OnSkin</li>
 			</layers>

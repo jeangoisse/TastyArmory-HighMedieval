@@ -65,10 +65,6 @@
 			<Mass>1.2</Mass>
 			<StuffEffectMultiplierArmor>2</StuffEffectMultiplierArmor>
 		</statBases>
-		<equippedStatOffsets/>
-		<thingCategories>
-			<li>ApparelArmor</li>
-		</thingCategories>
 		<apparel>
 			<wornGraphicPath>Apparel/Helmets/TA_NasalHelm/TA_NasalHelm</wornGraphicPath>
 		</apparel>
@@ -133,9 +129,6 @@
 			<StuffEffectMultiplierArmor>2</StuffEffectMultiplierArmor>
 		</statBases>
 		<equippedStatOffsets/>
-		<thingCategories>
-			<li>ApparelArmor</li>
-		</thingCategories>
 		<apparel>
 			<wornGraphicPath>Apparel/Helmets/TA_SpectacleHelm/TA_SpectacleHelm</wornGraphicPath>
 		</apparel>

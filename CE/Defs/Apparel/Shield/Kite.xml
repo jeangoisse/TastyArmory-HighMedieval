@@ -84,7 +84,7 @@
 					<shaderTypeDef>CutoutComplex</shaderTypeDef>
 					<parentTagDef>ApparelBody</parentTagDef>
 					<drawData>
-						<scale>0.67</scale>
+						<scale>0.65</scale>
 						<defaultData>
 							<layer>80</layer>
 						</defaultData>
@@ -97,7 +97,7 @@
 							<offset>(0.15, 0, -0.1)</offset>
 						</dataNorth>
 						<dataSouth>
-							<offset>(0.12, 0, -0.15)</offset>
+							<offset>(0.09, 0, -0.25)</offset>
 						</dataSouth>
 					</drawData>
 				</li>

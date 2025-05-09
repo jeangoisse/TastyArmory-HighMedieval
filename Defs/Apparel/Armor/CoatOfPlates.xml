@@ -50,7 +50,7 @@
 			<wornGraphicPath>Apparel/Armor/TA_CoatOfPlates/TA_CoatOfPlates</wornGraphicPath>
 			<useWornGraphicMask>true</useWornGraphicMask>
 			<layers>
-				<li>Shell</li>
+				<li>Middle</li>
 			</layers>
 			<tags>
 				<li>MedievalMilitary</li>

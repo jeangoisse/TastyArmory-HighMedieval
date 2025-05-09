@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	<ThingDef ParentName="HatMakeableBase">
+		<defName>TA_FurhatNordic</defName>
+		<label>nordic fur hood</label>
+		<description>.</description>
+		<graphicData>
+			<texPath>Apparel/Hats/TA_FurhatNordic/TA_FurhatNordic_ico</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<costStuffCount>30</costStuffCount>
+		<stuffCategories>
+			<li>Leathery</li>
+		</stuffCategories>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToMake>1500</WorkToMake>
+			<Mass>0.25</Mass>
+			<StuffEffectMultiplierArmor>3</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.65</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+			<EquipDelay>0.8</EquipDelay>
+		</statBases>
+		<recipeMaker>
+			<researchPrerequisite>ComplexClothing</researchPrerequisite>
+		</recipeMaker>
+		<apparel>
+			<countsAsClothingForNudity>false</countsAsClothingForNudity>
+			<developmentalStageFilter>Child, Adult</developmentalStageFilter>
+			<bodyPartGroups>
+				<li>UpperHead</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Apparel/Hats/TA_FurhatNordic/TA_FurhatNordic</wornGraphicPath>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+			<tags>
+				<li>Neolithic</li>
+				<li>Medieval</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Worker</li>
+			</defaultOutfitTags>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_StandardApparel" />
+		<tradeTags>
+			<li>BasicClothing</li>
+		</tradeTags>
+	</ThingDef>
+</Defs>

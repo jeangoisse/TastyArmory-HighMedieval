@@ -5,7 +5,7 @@
 		<label>surcoat</label>
 		<description>A surcoat worn by knights over maille, for protection against the elements and identifications on the battlefield</description>
 		<graphicData>
-			<texPath>Apparel/Clothes/TA_Surcoat/TA_Surcoat_ico</texPath>
+			<texPath>Apparel/Clothes/TA_Surcoat/TA_SurcoatPlain/TA_SurcoatPlain_ico</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<possessionCount>1</possessionCount>
@@ -52,7 +52,7 @@
 				<li>Torso</li>
 				<li>Shoulders</li>
 			</bodyPartGroups>
-			<wornGraphicPath>Apparel/Clothes/TA_Surcoat/TA_Surcoat</wornGraphicPath>
+			<wornGraphicPath>Apparel/Clothes/TA_Surcoat/TA_SurcoatPlain/TA_SurcoatPlain</wornGraphicPath>
 			<layers>
 				<li>Middle</li>
 			</layers>

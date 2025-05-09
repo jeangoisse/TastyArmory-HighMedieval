@@ -3,7 +3,7 @@
 
 	<ThingStyleDef>
 		<defName>TA_GreathelmBrassed</defName>
-		<wornGraphicPath>Apparel/Helmets/TA_Style_Dress_Arnheid/TA_Style_Dress_Arnheid</wornGraphicPath>
+		<wornGraphicPath>Apparel/Helmets/TA_GreathelmBrassed/TA_GreathelmBrassed</wornGraphicPath>
 		<useWornGraphicMask>true</useWornGraphicMask>
 		<graphicData>
 			<texPath>Apparel/Helmets/TA_GreathelmBrassed/TA_GreathelmBrassed_ico</texPath>
@@ -37,7 +37,7 @@
 		<label>greathelm</label>
 		<description>Large, thick, fully enclosed helmet. While rather cumbersome and significantly restricts wearer's field of view and breathing, it provides great protection for a heavily armored rider.</description>
 		<graphicData>
-			<texPath>Apparel/Helmets/TA_Greathelm/TA_Greathelm</texPath>
+			<texPath>Apparel/Helmets/TA_Greathelm/TA_Greathelm_ico</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<randomStyleChance>0.65</randomStyleChance>
@@ -89,7 +89,7 @@
 			<bodyPartGroups>
 				<li>FullHead</li>
 			</bodyPartGroups>
-			<wornGraphicPath>Apparel/Helmets/Greathelm/Greathelm</wornGraphicPath>
+			<wornGraphicPath>Apparel/Helmets/TA_Greathelm/TA_Greathelm</wornGraphicPath>
 			<layers>
 				<li>Overhead</li>
 				<li>StrappedHead</li>

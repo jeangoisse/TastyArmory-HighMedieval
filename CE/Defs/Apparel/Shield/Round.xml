@@ -87,7 +87,7 @@
 					<shaderTypeDef>CutoutComplex</shaderTypeDef>
 					<parentTagDef>ApparelBody</parentTagDef>
 					<drawData>
-						<scale>0.70</scale>
+						<scale>0.66</scale>
 						<defaultData>
 							<layer>80</layer>
 						</defaultData>

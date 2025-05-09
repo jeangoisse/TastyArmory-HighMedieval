@@ -41,6 +41,11 @@
 			<WoodLog>10</WoodLog>
 		</costList>
     <apparel>
+			<drawData>
+				<defaultData>
+					<layer>28</layer>
+				</defaultData>
+			</drawData>
       <countsAsClothingForNudity>false</countsAsClothingForNudity>
       <careIfWornByCorpse>false</careIfWornByCorpse>
       <bodyPartGroups>
@@ -63,6 +68,7 @@
         <li>Soldier</li>
       </defaultOutfitTags>
       <wornGraphicPath>Apparel/Accessories/TA_SwordScabbard/TA_SwordScabbard</wornGraphicPath>
+			<useWornGraphicMask>true</useWornGraphicMask>
     </apparel>
 		<colorGenerator Class="ColorGenerator_StandardApparel" />
   </ThingDef>
