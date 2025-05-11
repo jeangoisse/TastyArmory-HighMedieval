@@ -1,5 +1,5 @@
-# TastyArmory-HighAFMedieval
- TastyArmory-HighAFMedieval
+# TastyArmory-High Medieval
+ TastyArmory-High Medieval
 
 TODO: 
 -kite shield thicker outline according to drawsize
