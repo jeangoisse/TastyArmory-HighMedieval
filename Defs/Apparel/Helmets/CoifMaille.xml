@@ -27,8 +27,8 @@
 			<MaxHitPoints>250</MaxHitPoints>
 			<WorkToMake>8000</WorkToMake>
 			<Bulk MayRequire="CETeam.CombatExtended">1</Bulk>
-			<Mass>1.6</Mass>
-			<StuffEffectMultiplierArmor>1.4</StuffEffectMultiplierArmor>
+			<Mass>1.8</Mass>
+			<StuffEffectMultiplierArmor>1.5</StuffEffectMultiplierArmor>
 			<StuffEffectMultiplierInsulation_Cold>0.4</StuffEffectMultiplierInsulation_Cold>
 			<StuffEffectMultiplierInsulation_Heat>0.3</StuffEffectMultiplierInsulation_Heat>
 			<EquipDelay>1</EquipDelay>

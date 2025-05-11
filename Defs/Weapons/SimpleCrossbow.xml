@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<!--Bow-->
+	<ThingDef ParentName="BaseWeaponNeolithic">    
+		<defName>TA_SimpleCrossbow</defName>
+		<label>simple crossbow</label>
+		<description>Siple lever released crossbow with wooden bow.</description>
+		<graphicData>
+		<texPath>Weapons/Ranged/SimpleCrossbow</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>Bow_Recurve</soundInteract>
+		<costList>
+			<WoodLog>50</WoodLog>
+		</costList>
+		<statBases>
+			<WorkToMake>6000</WorkToMake>
+			<Mass>2.5</Mass>
+			<AccuracyTouch>0.86</AccuracyTouch>
+			<AccuracyShort>0.85</AccuracyShort>
+			<AccuracyMedium>0.67</AccuracyMedium>
+			<AccuracyLong>0.38</AccuracyLong>
+			<RangedWeapon_Cooldown>2</RangedWeapon_Cooldown>
+		</statBases>
+		<weaponTags>
+		<li>NeolithicRangedBasic</li>
+		</weaponTags>
+		<weaponClasses>
+		<li>Ranged</li>
+		<li>RangedLight</li>
+		</weaponClasses>
+		<recipeMaker>
+		<recipeUsers Inherit="False">
+			<li>CraftingSpot</li>
+		</recipeUsers>
+		<skillRequirements>
+			<Crafting>4</Crafting>
+		</skillRequirements>
+		</recipeMaker>
+		<verbs>
+		<li>
+			<verbClass>Verb_Shoot</verbClass>
+			<hasStandardCommand>true</hasStandardCommand>
+			<defaultProjectile>TA_Arrow_SimpleCrossbow</defaultProjectile>
+			<warmupTime>1.35</warmupTime>
+			<range>20.9</range>
+			<soundCast>Bow_Recurve</soundCast>
+		</li>
+		</verbs>
+		<tools>
+		<li>
+			<label>limb</label>
+			<capacities>
+			<li>Blunt</li>
+			<li>Poke</li>
+			</capacities>
+			<power>6</power>
+			<cooldownTime>2</cooldownTime>
+		</li>
+		</tools>
+	</ThingDef>
+	
+	<ThingDef ParentName="BaseProjectileNeolithic">
+		<defName>TA_Arrow_SimpleCrossbow</defName>
+		<label>light crossbow bolt</label>
+		<graphicData>
+		<texPath>Things/Projectile/Arrow_Small</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile>
+		<damageDef>ArrowHighVelocity</damageDef>
+		<damageAmountBase>15</damageAmountBase>
+		<stoppingPower>1.2</stoppingPower>
+		<speed>40</speed>
+		</projectile>
+	</ThingDef>
+
+</Defs>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<!-- ===== Tools ===== -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[
+			defName="TA_SimpleCrossbow" or 
+			defName="TA_CompositeCrossbow"]/tools</xpath>
+		<value>
+			<tools>
+				<li Class="CombatExtended.ToolCE">
+					<capacities>
+						<li>Blunt</li>
+					</capacities>
+					<power>7</power>
+					<cooldownTime>1.6</cooldownTime>
+					<armorPenetrationBlunt>0.65</armorPenetrationBlunt>
+				</li>
+			</tools>
+		</value>
+	</Operation>
+
+	<!-- ===== Simple Crossbow ===== -->
+
+	<Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
+		<defName>TA_SimpleCrossbow</defName>
+		<statBases>
+			<Bulk>6</Bulk>
+			<SwayFactor>1</SwayFactor>
+			<ShotSpread>0.3</ShotSpread>
+			<SightsEfficiency>1</SightsEfficiency>
+			<RangedWeapon_Cooldown>1</RangedWeapon_Cooldown>
+		</statBases>
+		<costList>
+			<WoodLog>70</WoodLog>
+			<DankPyon_ComponentBasic>2</DankPyon_ComponentBasic>
+		</costList>
+		<Properties>
+			<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+			<hasStandardCommand>True</hasStandardCommand>
+			<defaultProjectile>Projectile_DankPyonCrossbowBolt_Steel</defaultProjectile>
+			<warmupTime>1</warmupTime>
+			<range>19</range>
+			<soundCast>Bow_Large</soundCast>
+		</Properties>
+		<AmmoUser>
+			<magazineSize>1</magazineSize>
+			<reloadTime>2.7</reloadTime>
+			<ammoSet>AmmoSet_CrossbowBoltWeak</ammoSet>
+		</AmmoUser>
+		<FireModes>
+			<aiAimMode>AimedShot</aiAimMode>
+		</FireModes>
+		<weaponTags>
+			<li>CE_XBow</li>
+		</weaponTags>
+	</Operation>
+
+	<!-- ===== Composite Crossbow ===== -->
+
+	<Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
+		<defName>TA_CompositeCrossbow</defName>
+		<statBases>
+			<Bulk>9</Bulk>
+			<SwayFactor>1.0</SwayFactor>
+			<ShotSpread>0.17</ShotSpread>
+			<SightsEfficiency>1</SightsEfficiency>
+			<RangedWeapon_Cooldown>1</RangedWeapon_Cooldown>
+		</statBases>
+		<Properties>
+			<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+			<hasStandardCommand>True</hasStandardCommand>
+			<defaultProjectile>Projectile_CrossbowBoltComposite_Steel</defaultProjectile>
+			<warmupTime>1</warmupTime>
+			<range>27</range>
+			<soundCast>Bow_Large</soundCast>
+		</Properties>
+		<AmmoUser>
+			<magazineSize>1</magazineSize>
+			<reloadTime>4.5</reloadTime>
+			<ammoSet>AmmoSet_CrossbowBoltComposite</ammoSet>
+		</AmmoUser>
+		<FireModes>
+			<aiAimMode>AimedShot</aiAimMode>
+		</FireModes>
+		<weaponTags>
+			<li>CE_XBow</li>
+		</weaponTags>
+	</Operation>
+	
+      
+</Patch>

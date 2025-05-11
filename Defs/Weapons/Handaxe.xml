@@ -2,7 +2,7 @@
 <Defs>
 	<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
 		<defName>TA_Handaxe</defName>
-		<label>hand axe</label>
+		<label>handaxe</label>
 		<description>.</description>
 		<graphicData>
 			<texPath>Weapons/Melee/TA_Handaxe</texPath>
@@ -33,7 +33,7 @@
 			</skillRequirements>
 		</recipeMaker>
 		<statBases>
-			<WorkToMake>12000</WorkToMake>
+			<WorkToMake>7000</WorkToMake>
 			<Mass>1.2</Mass>
 			<Bulk MayRequire="CETeam.CombatExtended">4</Bulk>
 			<MeleeCounterParryBonus MayRequire="CETeam.CombatExtended">0.2</MeleeCounterParryBonus>
@@ -44,32 +44,23 @@
 			<MeleeDodgeChance MayRequire="CETeam.CombatExtended">0.20</MeleeDodgeChance>
 		</equippedStatOffsets>
 		<tools>
-			<li Class="CombatExtended.ToolCE">
+			<li>
 				<label>handle</label>
 				<capacities>
-					<li>Poke</li>
+				<li>Poke</li>
 				</capacities>
-				<power>3</power>
-				<cooldownTime>1.66</cooldownTime>
-				<chanceFactor>0.10</chanceFactor>
-				<armorPenetrationBlunt>0.75</armorPenetrationBlunt>
-				<linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
 			</li>
-			<li Class="CombatExtended.ToolCE">
+			<li>
 				<label>edge</label>
 				<capacities>
-					<li>Cut</li>
+				<li>Cut</li>
 				</capacities>
-				<power>25</power>
-				<cooldownTime>2.47</cooldownTime>
-				<armorPenetrationBlunt>4.69</armorPenetrationBlunt>
-				<armorPenetrationSharp>1.57</armorPenetrationSharp>
-				<linkedBodyPartsGroup>Edge</linkedBodyPartsGroup>
+				<power>15</power>
+				<cooldownTime>2</cooldownTime>
 			</li>
 		</tools>
-		<thingSetMakerTags>
-			<li>RewardStandardQualitySuper</li>
-		</thingSetMakerTags>
 		<modExtensions MayRequire="CETeam.CombatExtended">
 			<li Class="CombatExtended.GunDrawExtension">
 				<DrawOffset>0.1,-0.1</DrawOffset>

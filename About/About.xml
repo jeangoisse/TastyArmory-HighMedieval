@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-	<name>Tasty Armory - High (As Kite) Medieval</name>
+	<name>Tasty Armory - High Medieval</name>
 	<author>al9000</author>	
-	<url>https://github.com/SerinaCE/TastyArmory-MedievalEurope</url>
+	<url>https://github.com/SerinaCE/TastyArmory-HighMedieval</url>
 	<supportedVersions>
 	  <li>1.5</li>
 	</supportedVersions>
-		<packageId>al9000.medievaleuropepartone</packageId>
-	<description>stuff</description>
+		<packageId>al9000.highmedieval</packageId>
+	<description>As a kite! (yknow, kite shield, hehe funni...)</description>
 	<modDependencies>
 		<li>
 			<packageId>al9000.tastycore</packageId>

@@ -23,7 +23,7 @@
 		<label>bill</label>
 		<description>Implement for chopping branches. And sometimes limbs.</description>
 		<graphicData>
-			<texPath>Weapons/Melee/TA_Bill</texPath>
+			<texPath>Weapons/Melee/TA_Bill_base</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 			<drawSize>1.25</drawSize>
