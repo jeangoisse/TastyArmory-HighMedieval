@@ -16,11 +16,13 @@
 			<li>Melee</li>
 		</weaponClasses>
 		<weaponTags>
+			<li>NeolithicMeleeDecent</li>
+			<li>MedievalMeleeBasic</li>
 			<li>MedievalMeleeDecent</li>
 			<li>CE_OneHandedWeapon</li>
 		</weaponTags>
 		<stuffCategories>
-			<li>Metallic_Weapon</li>
+			<li>Metallic</li>
 		</stuffCategories>
 		<costStuffCount>40</costStuffCount>
 		<costList>
@@ -61,8 +63,8 @@
 				<cooldownTime>2</cooldownTime>
 			</li>
 		</tools>
-		<modExtensions MayRequire="CETeam.CombatExtended">
-			<li Class="CombatExtended.GunDrawExtension">
+		<modExtensions>
+			<li Class="CombatExtended.GunDrawExtension" MayRequire="CETeam.CombatExtended">
 				<DrawOffset>0.1,-0.1</DrawOffset>
 			</li>
 		</modExtensions>

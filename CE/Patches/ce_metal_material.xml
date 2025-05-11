@@ -21,7 +21,12 @@
 
       <Operation Class="PatchOperationReplace">
 		<xpath>Defs/ThingDef[
-            defName="TA_Greataxe"]/stuffCategories</xpath>
+            defName="TA_Greataxe" or
+            defName="TA_Bill" or
+            defName="TA_ArmingSword" or
+            defName="TA_Scramasax" or
+            defName="TA_Handaxe" or
+            defName="TA_Spear"]/stuffCategories</xpath>
 		<value>
 			<stuffCategories>
                 <li>Metallic_Weapon</li>

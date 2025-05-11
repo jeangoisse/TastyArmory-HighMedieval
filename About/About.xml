@@ -12,6 +12,7 @@
 		<li>
 			<packageId>al9000.tastycore</packageId>
 			<displayName>Tasty Armory - Core</displayName>
+			<downloadUrl>https://github.com/SerinaCE/TastyArmory-Core</downloadUrl>
 		</li>
 	</modDependencies>
 	<loadAfter>

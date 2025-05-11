@@ -41,7 +41,7 @@
 			<wornGraphicPath>Apparel/Hats/TA_Headscarf/TA_Headscarf</wornGraphicPath>
 			<layers>
 				<li>Overhead</li>
-				<li>OnHead</li>
+				<li MayRequire="CETeam.CombatExtended">OnHead</li>
 			</layers>
 			<tags>
 				<li>Medieval</li>

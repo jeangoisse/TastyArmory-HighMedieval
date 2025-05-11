@@ -33,7 +33,7 @@
 		</recipeMaker>
 		<costStuffCount>75</costStuffCount>
 		<stuffCategories>
-			<li>Metallic_Weapon</li>
+			<li>Metallic</li>
 		</stuffCategories>
 		<relicChance>1.5</relicChance>
 		<statBases>
@@ -80,7 +80,7 @@
 			  </li>
 		</tools>
 		<modExtensions MayRequire="CETeam.CombatExtended">
-			<li Class="CombatExtended.GunDrawExtension">
+			<li Class="CombatExtended.GunDrawExtension" MayRequire="CETeam.CombatExtended">
 				<DrawOffset>0.1,-0.1</DrawOffset>
 			</li>
 		</modExtensions>

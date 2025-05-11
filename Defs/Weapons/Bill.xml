@@ -42,6 +42,7 @@
 		</randomStyle>
 		<techLevel>Medieval</techLevel>
 		<weaponTags Inherit="False">
+			<li>NeolithicMeleeAdvanced</li>
 			<li>MedievalMeleeDecent</li>
 			<li>MedievalMeleeAdvanced</li>
 		</weaponTags>
@@ -64,7 +65,7 @@
 		</costList>
 		<costStuffCount>60</costStuffCount>
 		<stuffCategories>
-			<li>Metallic_Weapon</li>
+			<li>Metallic</li>
 		</stuffCategories>
 		<thingSetMakerTags>
 			<li>RewardStandardQualitySuper</li>
@@ -135,7 +136,7 @@
 					</west>
 				</weaponDraftedDrawOffsets>
 			</li>
-			<li Class="CombatExtended.GunDrawExtension">
+			<li Class="CombatExtended.GunDrawExtension" MayRequire="CETeam.CombatExtended">
 				<DrawOffset>0.25,0.25</DrawOffset>
 			</li>
 		</modExtensions>

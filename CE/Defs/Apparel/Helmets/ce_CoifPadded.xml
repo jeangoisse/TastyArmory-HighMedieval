@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
-	<ThingDef ParentName="ApparelMakeableBase">
+	<ThingDef ParentName="ApparelMakeableBase" MayRequire="CETeam.CombatExtended">
 		<defName>TA_CoifPadded</defName>
 		<label>padded coif</label>
 		<description>A padded coif, somewhat protects from cuts but it's really more for wear under a helmet</description>

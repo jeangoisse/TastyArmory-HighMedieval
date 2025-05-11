@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
-	<ThingDef ParentName="ApparelMakeableBase">
+	<ThingDef ParentName="ApparelMakeableBase" MayRequire="CETeam.CombatExtended">
 		<defName>TA_CoifMaille</defName>
 		<label>maille coif</label>
 		<description>Coif made of fine ring maille, protects face and neck well from cuts.</description>

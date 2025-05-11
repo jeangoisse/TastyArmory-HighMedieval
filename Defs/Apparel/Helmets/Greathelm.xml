@@ -89,7 +89,7 @@
 			<wornGraphicPath>Apparel/Helmets/TA_Greathelm/TA_Greathelm</wornGraphicPath>
 			<layers>
 				<li>Overhead</li>
-				<li>StrappedHead</li>
+				<li MayRequire="CETeam.CombatExtended">StrappedHead</li>
 			</layers>
 			<tags>
 				<li>MedievalArmorDecent</li>

@@ -38,6 +38,7 @@
       <parentTagDef>ApparelHead</parentTagDef>
 			<bodyPartGroups>
 				<li>UpperHead</li>
+				<li>Eyes</li>
 			</bodyPartGroups>
 			<wornGraphicPath>Apparel/Helmets/TA_KettleHat/TA_KettleHat</wornGraphicPath>
 			<layers>

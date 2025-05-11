@@ -1,5 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
+	<ThingStyleDef>
+		<defName>TA_NasalHelm_Norman</defName>
+		<wornGraphicPath>Apparel/Helmets/TA_NasalHelmNorman/TA_NasalHelmNorman</wornGraphicPath>
+		<graphicData>
+			<texPath>Apparel/Helmets/TA_NasalHelmNorman/TA_NasalHelmNorman_ico</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingStyleDef>
+	<ThingStyleDef>
+		<defName>TA_NasalHelm_Bjorn</defName>
+		<wornGraphicPath>Apparel/Helmets/TA_NasalHelmBjorn/TA_NasalHelmBjorn</wornGraphicPath>
+		<graphicData>
+			<texPath>Apparel/Helmets/TA_NasalHelmBjorn/TA_NasalHelmBjorn_ico</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingStyleDef>
+
+
 	<ThingDef ParentName="ArmorSmithableBase" Name="TA_NasalBase" Abstract="True">
 		<possessionCount>1</possessionCount>
 		<recipeMaker>
@@ -15,10 +33,9 @@
 			<li>Metallic</li>
 		</stuffCategories>
 		<statBases>
-			<Bulk MayRequire="CETeam.CombatExtended">6</Bulk>
-			<WornBulk MayRequire="CETeam.CombatExtended">1</WornBulk>
 			<Insulation_Cold>4</Insulation_Cold>
 			<EquipDelay>1</EquipDelay>
+			<StuffEffectMultiplierArmor>0.77</StuffEffectMultiplierArmor>
 		</statBases>
 		<equippedStatOffsets/>
 		<thingCategories>
@@ -27,7 +44,7 @@
 		<apparel>
 			<parentTagDef>ApparelHead</parentTagDef>
 			<bodyPartGroups>
-				<li>FullHead</li>
+				<li>UpperHead</li>
 			</bodyPartGroups>
 			<layers>
 				<li>Overhead</li>
@@ -58,60 +75,26 @@
 			<texPath>Apparel/Helmets/TA_NasalHelm/TA_NasalHelm_ico</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
+		<randomStyle>
+			<li>
+				<chance>3</chance>
+				<styleDef>TA_NasalHelm_Norman</styleDef>
+			</li>
+			<li>
+				<chance>2</chance>
+				<styleDef>TA_NasalHelm_Bjorn</styleDef>
+			</li>
+		</randomStyle>
 		<costStuffCount>30</costStuffCount>
 		<statBases>
 			<MaxHitPoints>120</MaxHitPoints>
 			<WorkToMake>5000</WorkToMake>
 			<Mass>1.2</Mass>
-			<StuffEffectMultiplierArmor>2</StuffEffectMultiplierArmor>
 		</statBases>
 		<apparel>
 			<wornGraphicPath>Apparel/Helmets/TA_NasalHelm/TA_NasalHelm</wornGraphicPath>
 		</apparel>
-		<modExtensions>
-			<li Class="CombatExtended.PartialArmorExt" MayRequire="CETeam.CombatExtended">
-				<stats>
-					<li>
-						<ArmorRating_Sharp>0.8</ArmorRating_Sharp>
-						<parts>
-							<li>Nose</li>
-						</parts>
-					</li>
-					<li>
-						<ArmorRating_Blunt>0.8</ArmorRating_Blunt>
-						<parts>
-							<li>Nose</li>
-						</parts>
-					</li>
-					<li>
-						<ArmorRating_Sharp>0.2</ArmorRating_Sharp>
-						<parts>
-							<li>Eye</li>
-						</parts>
-					</li>
-					<li>
-						<ArmorRating_Blunt>0.2</ArmorRating_Blunt>
-						<parts>
-							<li>Eye</li>
-						</parts>
-					</li>
-					<li>
-						<ArmorRating_Sharp>0</ArmorRating_Sharp>
-						<parts>
-							<li>Jaw</li>
-						</parts>
-					</li>
-					<li>
-						<ArmorRating_Blunt>0</ArmorRating_Blunt>
-						<parts>
-							<li>Jaw</li>
-						</parts>
-					</li>
-				</stats>
-			</li>
-		</modExtensions>
 	</ThingDef>
-
 	
 	<ThingDef ParentName="TA_NasalBase">
 		<defName>TA_SpectacleHelm</defName>
@@ -126,56 +109,62 @@
 			<MaxHitPoints>130</MaxHitPoints>
 			<WorkToMake>6000</WorkToMake>
 			<Mass>1.4</Mass>
-			<StuffEffectMultiplierArmor>2</StuffEffectMultiplierArmor>
 		</statBases>
 		<equippedStatOffsets/>
 		<apparel>
 			<wornGraphicPath>Apparel/Helmets/TA_SpectacleHelm/TA_SpectacleHelm</wornGraphicPath>
+			<bodyPartGroups>
+				<li>UpperHead</li>
+				<li>Eyes</li>
+			</bodyPartGroups>
 		</apparel>
-		<modExtensions>
-			<li Class="CombatExtended.PartialArmorExt" MayRequire="CETeam.CombatExtended">
-				<stats>
-					<li>
-						<ArmorRating_Sharp>0.8</ArmorRating_Sharp>
-						<parts>
-							<li>Nose</li>
-						</parts>
-					</li>
-					<li>
-						<ArmorRating_Blunt>0.8</ArmorRating_Blunt>
-						<parts>
-							<li>Nose</li>
-						</parts>
-					</li>
-					<li>
-						<ArmorRating_Sharp>0.7</ArmorRating_Sharp>
-						<parts>
-							<li>Eye</li>
-						</parts>
-					</li>
-					<li>
-						<ArmorRating_Blunt>0.7</ArmorRating_Blunt>
-						<parts>
-							<li>Eye</li>
-						</parts>
-					</li>
-					<li>
-						<ArmorRating_Sharp>0.15</ArmorRating_Sharp>
-						<parts>
-							<li>Jaw</li>
-						</parts>
-					</li>
-					<li>
-						<ArmorRating_Blunt>0.15</ArmorRating_Blunt>
-						<parts>
-							<li>Jaw</li>
-						</parts>
-					</li>
-				</stats>
-			</li>
-		</modExtensions>
 	</ThingDef>
 
 
+	<ThingDef ParentName="TA_NasalBase">
+		<defName>TA_NasalCombi</defName>
+		<label>nasal helm with coif</label>
+		<description>Helmet made of iron plates attached into a conical shape, fitted with a nose guard, worn with maille coif</description>
+		<graphicData>
+			<texPath>Apparel/Helmets/TA_NasalCombi/TA_NasalCombi_ico</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<costStuffCount>35</costStuffCount>
+		<statBases>
+			<MaxHitPoints>130</MaxHitPoints>
+			<WorkToMake>9000</WorkToMake>
+			<Mass>2.5</Mass>
+		</statBases>
+		<equippedStatOffsets/>
+		<apparel>
+			<wornGraphicPath>Apparel/Helmets/A_NasalCombi/TA_NasalCombi</wornGraphicPath>
+			<bodyPartGroups>
+				<li>FullHead</li>
+			</bodyPartGroups>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="TA_NasalBase">
+		<defName>TA_SpectacleCombi</defName>
+		<label>spectacle helm with coif</label>
+		<description>Helmet made of iron plates attached into a conical shape, fitted with a nose guard and rings around the eyes, worn with maille coif</description>
+		<graphicData>
+			<texPath>Apparel/Helmets/TA_SpectacleCombi/TA_SpectacleCombi_ico</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<costStuffCount>35</costStuffCount>
+		<statBases>
+			<MaxHitPoints>130</MaxHitPoints>
+			<WorkToMake>9000</WorkToMake>
+			<Mass>2.5</Mass>
+		</statBases>
+		<equippedStatOffsets/>
+		<apparel>
+			<wornGraphicPath>Apparel/Helmets/TA_SpectacleCombi/TA_SpectacleCombi</wornGraphicPath>
+			<bodyPartGroups>
+				<li>FullHead</li>
+			</bodyPartGroups>
+		</apparel>
+	</ThingDef>
 
 </Defs>

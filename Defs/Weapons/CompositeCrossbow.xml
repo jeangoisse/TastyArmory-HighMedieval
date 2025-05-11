@@ -7,7 +7,7 @@
 		<label>composite crossbow</label>
 		<description>Properly made military crossbow, limbs similar in construction to eastern composite bows but much thicker and shorter.</description>
 		<graphicData>
-		<texPath>Weapons/Ranged/CompsiteCrossbow</texPath>
+		<texPath>Weapons/Ranged/TA_CompositeCrossbow</texPath>
 		<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
     <soundInteract>Bow_Large</soundInteract>
@@ -24,10 +24,12 @@
       <AccuracyLong>0.54</AccuracyLong>
       <RangedWeapon_Cooldown>3</RangedWeapon_Cooldown>
     </statBases>
-	<weaponTags Inherit="False">
-		<li>NeolithicRangedHeavy</li>
-		<li>NeolithicRangedChief</li>
-	</weaponTags>
+    <weaponTags Inherit="False">
+        <li>NeolithicRangedHeavy</li>
+        <li>NeolithicRangedChief</li>
+        <li>MedievalRangedDecent</li>
+        <li>MedievalRangedAdvanced</li>
+    </weaponTags>
     <weaponClasses>
       <li>Ranged</li>
       <li>RangedHeavy</li>

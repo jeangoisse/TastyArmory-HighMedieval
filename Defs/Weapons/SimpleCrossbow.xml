@@ -7,7 +7,7 @@
 		<label>simple crossbow</label>
 		<description>Siple lever released crossbow with wooden bow.</description>
 		<graphicData>
-		<texPath>Weapons/Ranged/SimpleCrossbow</texPath>
+		<texPath>Weapons/Ranged/TA_SimpleCrossbow</texPath>
 		<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<soundInteract>Bow_Recurve</soundInteract>
@@ -15,7 +15,7 @@
 			<WoodLog>50</WoodLog>
 		</costList>
 		<statBases>
-			<WorkToMake>6000</WorkToMake>
+			<WorkToMake>8000</WorkToMake>
 			<Mass>2.5</Mass>
 			<AccuracyTouch>0.86</AccuracyTouch>
 			<AccuracyShort>0.85</AccuracyShort>
@@ -24,11 +24,12 @@
 			<RangedWeapon_Cooldown>2</RangedWeapon_Cooldown>
 		</statBases>
 		<weaponTags>
-		<li>NeolithicRangedBasic</li>
+			<li>NeolithicRangedBasic</li>
+			<li>NeolithicRangedDecent</li>
 		</weaponTags>
 		<weaponClasses>
-		<li>Ranged</li>
-		<li>RangedLight</li>
+			<li>Ranged</li>
+			<li>RangedLight</li>
 		</weaponClasses>
 		<recipeMaker>
 		<recipeUsers Inherit="False">
