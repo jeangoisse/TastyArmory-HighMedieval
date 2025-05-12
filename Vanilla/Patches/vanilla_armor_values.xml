@@ -10,7 +10,7 @@
                   defName="TA_Headscarf"
                   ]/statBases/StuffEffectMultiplierArmor</xpath>
 		<value>
-			<StuffEffectMultiplierArmor>0.17</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierArmor>0.20</StuffEffectMultiplierArmor>
 		</value>
 	</Operation>
 
@@ -18,7 +18,6 @@
 	<Operation Class="PatchOperationRemove">
 		<xpath>Defs/ThingDef[
                   defName="TA_Aketon" or
-                  defName="TA_GambesonCoat" or
                   defName="TA_Surcoat"
 			]/statBases/ArmorRating_Sharp
             </xpath>
@@ -26,7 +25,6 @@
 	<Operation Class="PatchOperationRemove">
 		<xpath>Defs/ThingDef[
                   defName="TA_Aketon" or
-                  defName="TA_GambesonCoat" or
                   defName="TA_Surcoat"
 			]/statBases/ArmorRating_Blunt
             </xpath>
@@ -36,15 +34,7 @@
                   defName="TA_Aketon"
                   ]/statBases/StuffEffectMultiplierArmor</xpath>
 		<value>
-			<StuffEffectMultiplierArmor>0.38</StuffEffectMultiplierArmor>
-		</value>
-	</Operation>
-	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/ThingDef[
-                  defName="TA_GambesonCoat"
-                  ]/statBases/StuffEffectMultiplierArmor</xpath>
-		<value>
-			<StuffEffectMultiplierArmor>0.55</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierArmor>0.40</StuffEffectMultiplierArmor>
 		</value>
 	</Operation>
 	<Operation Class="PatchOperationReplace">
@@ -52,7 +42,7 @@
                   defName="TA_Surcoat"
                   ]/statBases/StuffEffectMultiplierArmor</xpath>
 		<value>
-			<StuffEffectMultiplierArmor>0.25</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierArmor>0.30</StuffEffectMultiplierArmor>
 		</value>
 	</Operation>
 

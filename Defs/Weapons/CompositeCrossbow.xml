@@ -7,8 +7,9 @@
 		<label>composite crossbow</label>
 		<description>Properly made military crossbow, limbs similar in construction to eastern composite bows but much thicker and shorter.</description>
 		<graphicData>
-		<texPath>Weapons/Ranged/TA_CompositeCrossbow</texPath>
-		<graphicClass>Graphic_Single</graphicClass>
+      <texPath>Weapons/Ranged/TA_CompositeCrossbow</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1.2</drawSize>
 		</graphicData>
     <soundInteract>Bow_Large</soundInteract>
     <costList>
