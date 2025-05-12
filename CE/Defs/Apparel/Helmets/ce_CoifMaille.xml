@@ -68,5 +68,20 @@
 			<li>Clothing</li>
 			<li>Armor</li>
 		</tradeTags>
+		<modExtensions>
+			<li Class="CombatExtended.PartialArmorExt" MayRequire="CETeam.CombatExtended">
+				<stats>
+					<li>
+						<ArmorRating_Blunt>0.50</ArmorRating_Blunt>
+						<parts>
+							<li>Head</li>
+							<li>Ear</li>
+							<li>Neck</li>
+							<li>Jaw</li>
+						</parts>
+					</li>
+				</stats>
+			</li>
+		</modExtensions>
 	</ThingDef>
 </Defs>

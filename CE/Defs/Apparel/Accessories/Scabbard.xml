@@ -59,13 +59,13 @@
     <apparel>
 			<drawData>
 				<defaultData>
-					<layer>28</layer>
+					<layer>26</layer>
 				</defaultData>
 			</drawData>
       <countsAsClothingForNudity>false</countsAsClothingForNudity>
       <careIfWornByCorpse>false</careIfWornByCorpse>
       <bodyPartGroups>
-        <li>Torso</li>
+        <li>Legs</li>
       </bodyPartGroups>
       <layers>
         <li>Webbing</li>

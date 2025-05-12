@@ -152,7 +152,7 @@
 						<li>Blunt</li>
 					</capacities>
 					<power>11</power>
-					<cooldownTime>1.59</cooldownTime>
+					<cooldownTime>1.75</cooldownTime>
 					<chanceFactor>0.25</chanceFactor>
 					<armorPenetrationBlunt>3.6</armorPenetrationBlunt>
 					<linkedBodyPartsGroup>Head</linkedBodyPartsGroup>
@@ -163,7 +163,7 @@
 						<li>Cut</li>
 					</capacities>
 					<power>21</power>
-					<cooldownTime>1.58</cooldownTime>
+					<cooldownTime>1.75</cooldownTime>
 					<chanceFactor>0.70</chanceFactor>
 					<armorPenetrationBlunt>3.6</armorPenetrationBlunt>
 					<armorPenetrationSharp>0.75</armorPenetrationSharp>
@@ -206,7 +206,7 @@
 					<capacities>
 						<li>Cut</li>
 					</capacities>
-					<power>22</power>
+					<power>19</power>
 					<cooldownTime>1.46</cooldownTime>
 					<chanceFactor>0.45</chanceFactor>
 					<armorPenetrationBlunt>1.15</armorPenetrationBlunt>

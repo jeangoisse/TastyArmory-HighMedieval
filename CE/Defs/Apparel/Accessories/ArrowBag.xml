@@ -39,6 +39,9 @@
 				<defaultData>
 					<layer>28</layer>
 				</defaultData>
+				<dataSouth>
+					<layer>0</layer>
+				</dataSouth>
 			</drawData>
 			<careIfWornByCorpse>false</careIfWornByCorpse>
 			<wornGraphicPath>Apparel/Accessories/TA_ArrowBag/TA_ArrowBag</wornGraphicPath>
