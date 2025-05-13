@@ -4,7 +4,7 @@
 	<ThingDef ParentName="ShieldBase">
 		<defName>TA_RoundShield</defName>
 		<label>round shield</label>
-		<description>Simple shield that can block simple projectiles and hits with melee weapons.</description>
+		<description>.</description>
 		<graphicData>
 			<texPath>Apparel/Shield/TA_Round/TA_Round_Plain</texPath>
 			<graphicClass>Graphic_Single</graphicClass>

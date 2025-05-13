@@ -17,6 +17,15 @@
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
 	</ThingStyleDef>
+	<ThingStyleDef>
+		<defName>TA_WarScythe</defName>
+		<overrideLabel>war scythe</overrideLabel>
+		<graphicData>
+			<texPath>Weapons/Melee/TA_WarScythe</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+	</ThingStyleDef>
 
 	<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
 		<defName>TA_Bill</defName>
@@ -32,12 +41,16 @@
 		<randomStyleChance>0.5</randomStyleChance>
 		<randomStyle>
 			<li>
-				<chance>2</chance>
+				<chance>3</chance>
 				<styleDef>TA_Bill_point</styleDef>
 			</li>
 			<li>
-				<chance>1</chance>
+				<chance>2</chance>
 				<styleDef>TA_Bill_hook</styleDef>
+			</li>
+			<li>
+				<chance>1</chance>
+				<styleDef>TA_WarScythe</styleDef>
 			</li>
 		</randomStyle>
 		<techLevel>Medieval</techLevel>

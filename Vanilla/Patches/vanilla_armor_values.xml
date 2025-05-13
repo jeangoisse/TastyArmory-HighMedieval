@@ -15,20 +15,6 @@
 	</Operation>
 
       <!--Padded-->
-	<Operation Class="PatchOperationRemove">
-		<xpath>Defs/ThingDef[
-                  defName="TA_Aketon" or
-                  defName="TA_Surcoat"
-			]/statBases/ArmorRating_Sharp
-            </xpath>
-	</Operation>
-	<Operation Class="PatchOperationRemove">
-		<xpath>Defs/ThingDef[
-                  defName="TA_Aketon" or
-                  defName="TA_Surcoat"
-			]/statBases/ArmorRating_Blunt
-            </xpath>
-	</Operation>
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/ThingDef[
                   defName="TA_Aketon"

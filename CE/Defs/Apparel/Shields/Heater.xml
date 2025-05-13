@@ -4,7 +4,7 @@
 	<ThingDef ParentName="ShieldBase">
 		<defName>TA_HeaterShield</defName>
 		<label>heater shield</label>
-		<description>Simple shield that can block simple projectiles and hits with melee weapons.</description>
+		<description>.</description>
 		<graphicData>
 			<texPath>Apparel/Shield/TA_Heater/TA_Heater_Plain</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -49,31 +49,31 @@
 		<randomStyleChance>0.9</randomStyleChance>
 		<randomStyle>
 			<li>
-				<styleDef>HeaterShield_Checker</styleDef>
+				<styleDef>TA_HeaterShield_Checker</styleDef>
 			</li>
 			<li>
-				<styleDef>HeaterShield_CrossDark</styleDef>
+				<styleDef>TA_HeaterShield_CrossDark</styleDef>
 			</li>	
 			<li>
-				<styleDef>HeaterShield_CrossInvert</styleDef>
+				<styleDef>TA_HeaterShield_CrossInvert</styleDef>
 			</li>
 			<li>
-				<styleDef>HeaterShield_CrossWhite</styleDef>
+				<styleDef>TA_HeaterShield_CrossWhite</styleDef>
 			</li>
 			<li>
-				<styleDef>HeaterShield_Eagle</styleDef>
+				<styleDef>TA_HeaterShield_Eagle</styleDef>
 			</li>
 			<li>
-				<styleDef>HeaterShield_Octa</styleDef>
+				<styleDef>TA_HeaterShield_Octa</styleDef>
 			</li>
 			<li>
-				<styleDef>HeaterShield_QuadrantWhite</styleDef>
+				<styleDef>TA_HeaterShield_QuadrantWhite</styleDef>
 			</li>
 			<li>
-				<styleDef>HeaterShield_SlashDark</styleDef>
+				<styleDef>TA_HeaterShield_SlashDark</styleDef>
 			</li>
 			<li>
-				<styleDef>HeaterShield_UpWhite</styleDef>
+				<styleDef>TA_HeaterShield_UpWhite</styleDef>
 			</li>		
 		</randomStyle>
 		<apparel>

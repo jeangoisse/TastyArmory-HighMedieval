@@ -31,8 +31,8 @@
 			<WornBulk MayRequire="CETeam.CombatExtended">0</WornBulk>
 			<Mass>1</Mass>
 			<StuffEffectMultiplierArmor>4</StuffEffectMultiplierArmor>
-			<ArmorRating_Sharp>0.25</ArmorRating_Sharp>
-			<ArmorRating_Blunt>0.3</ArmorRating_Blunt>
+			<ArmorRating_Sharp MayRequire="CETeam.CombatExtended">0.25</ArmorRating_Sharp>
+			<ArmorRating_Blunt MayRequire="CETeam.CombatExtended">0.3</ArmorRating_Blunt>
 			<StuffEffectMultiplierInsulation_Cold>0.7</StuffEffectMultiplierInsulation_Cold>
 			<StuffEffectMultiplierInsulation_Heat>0.3</StuffEffectMultiplierInsulation_Heat>
 			<EquipDelay>1</EquipDelay>

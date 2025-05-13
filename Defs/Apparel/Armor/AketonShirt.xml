@@ -24,8 +24,8 @@
 			<WorkToMake>9000</WorkToMake>
 			<Bulk MayRequire="CETeam.CombatExtended">10</Bulk>
 			<WornBulk MayRequire="CETeam.CombatExtended">0</WornBulk>
-			<Mass>2</Mass>
-			<StuffEffectMultiplierArmor>4</StuffEffectMultiplierArmor>
+			<Mass>3</Mass>
+			<StuffEffectMultiplierArmor>3</StuffEffectMultiplierArmor>
 			<ArmorRating_Sharp>0.45</ArmorRating_Sharp>
 			<ArmorRating_Blunt>1</ArmorRating_Blunt>
 			<StuffEffectMultiplierInsulation_Cold>0.7</StuffEffectMultiplierInsulation_Cold>
