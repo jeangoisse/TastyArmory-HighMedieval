@@ -26,6 +26,17 @@
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>0.92</drawSize>
 		</graphicData>
+		<randomStyleChance>0.5</randomStyleChance>
+		<randomStyle>
+			<li>
+				<chance>1</chance>
+				<styleDef>TA_Sword_viking</styleDef>
+			</li>
+			<li>
+				<chance>1</chance>
+				<styleDef>TA_Sword_crusader</styleDef>
+			</li>
+		</randomStyle>
 		<equippedAngleOffset>-25</equippedAngleOffset>
 		<techLevel>Medieval</techLevel>
 		<weaponTags Inherit="False">
