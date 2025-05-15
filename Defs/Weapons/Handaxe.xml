@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
+	<ThingStyleDef>
+		<defName>TA_Handaxe_nordland</defName>
+		<graphicData>
+			<texPath>Weapons/Melee/TA_Handaxe_nordland</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+	</ThingStyleDef>
+
 	<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
 		<defName>TA_Handaxe</defName>
 		<label>handaxe</label>
@@ -10,6 +19,13 @@
 			<shaderType>CutoutComplex</shaderType>
 			<drawSize>0.85</drawSize>
 		</graphicData>
+		<randomStyleChance>0.5</randomStyleChance>
+		<randomStyle>
+			<li>
+				<chance>1</chance>
+				<styleDef>TA_Handaxe_nordland</styleDef>
+			</li>
+		</randomStyle>
 		<equippedAngleOffset>-25</equippedAngleOffset>
 		<possessionCount>1</possessionCount>
 		<weaponClasses>
