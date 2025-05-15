@@ -1,14 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
+	<ThingStyleDef>
+		<defName>TA_Sword_viking</defName>
+		<overrideLabel>viking sword</overrideLabel>
+		<graphicData>
+			<texPath>Weapons/Melee/TA_Sword_viking</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingStyleDef>
+	<ThingStyleDef>
+		<defName>TA_Sword_crusader</defName>
+		<graphicData>
+			<texPath>Weapons/Melee/TA_Sword_viking</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingStyleDef>
+
 	<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
 		<defName>TA_ArmingSword</defName>
-		<label>sword</label>
+		<label>arming sword</label>
 		<description>.</description>
 		<graphicData>
 			<texPath>Weapons/Melee/TA_Sword_mid</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>1.0</drawSize>
+			<drawSize>0.92</drawSize>
 		</graphicData>
 		<equippedAngleOffset>-25</equippedAngleOffset>
 		<techLevel>Medieval</techLevel>
