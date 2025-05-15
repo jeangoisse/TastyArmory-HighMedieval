@@ -46,7 +46,7 @@
 
 	<!--Bill-->
 	<Operation Class="PatchOperationReplace">
-		<xpath>/Defs/ThingDef[defName="TA_Spear"]/tools</xpath>
+		<xpath>/Defs/ThingDef[defName="TA_Bill"]/tools</xpath>
 		<value>
 			<tools>
 				<li Class="CombatExtended.ToolCE">
