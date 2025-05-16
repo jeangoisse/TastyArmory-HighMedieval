@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Patch>
+    <Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Medieval Overhaul</li>
+		</mods>
+        <match Class="PatchOperationSequence">
+        <operations>
+            
+            <!-- Composite Crossbow -->
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="TA_CompositeCrossbow"]/recipeMaker/researchPrerequisite</xpath>
+                    <value>
+                        <researchPrerequisite Inherit="False">DankPyon_Crossbow</researchPrerequisite>
+                    </value>
+            </li>
+
+            <!-- Simple Crossbow -->
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="TA_SimpleCrossbow"]/recipeMaker</xpath>
+                    <value>
+                        <researchPrerequisite Inherit="False">DankPyon_Crossbow</researchPrerequisite>
+                    </value>
+            </li>
+
+            <!-- Arming Sword -->
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="TA_ArmingSword"]/recipeMaker/researchPrerequisite</xpath>
+                    <value>
+                        <researchPrerequisite Inherit="False">DankPyon_MilitaryBlades</researchPrerequisite>
+                    </value>
+            </li>
+
+            <!-- Bill -->
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="TA_Bill"]/recipeMaker/researchPrerequisite</xpath>
+                    <value>
+                        <researchPrerequisite Inherit="False">DankPyon_MilitaryPolearms</researchPrerequisite>
+                    </value>
+            </li>
+
+            <!-- handaxe -->
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="TA_Handaxe"]/recipeMaker/researchPrerequisite</xpath>
+                    <value>
+                        <researchPrerequisite Inherit="False">DankPyon_MilitaryBlades</researchPrerequisite>
+                    </value>
+            </li>
+
+            <!-- Scramasax -->
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="TA_Scramasax"]/recipeMaker/researchPrerequisite</xpath>
+                    <value>
+                        <researchPrerequisite Inherit="False">DankPyon_BasicBlades</researchPrerequisite>
+                    </value>
+            </li>
+
+            <!-- Spear -->
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="TA_Spear"]/recipeMaker/researchPrerequisite</xpath>
+                    <value>
+                        <researchPrerequisite Inherit="False">DankPyon_MilitaryPolearms</researchPrerequisite>
+                    </value>
+            </li>
+
+        </operations>
+    </match>
+</Operation>
+
+</Patch>
