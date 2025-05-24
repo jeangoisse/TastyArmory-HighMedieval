@@ -64,7 +64,7 @@
 		</stuffCategories>
 		<relicChance>1.5</relicChance>
 		<statBases>
-			<WorkToMake>20000</WorkToMake>
+			<WorkToMake>16000</WorkToMake> <!-- need testing /!\ -->
 			<Mass>1</Mass>
 			<Bulk MayRequire="CETeam.CombatExtended">8</Bulk>
 			<MeleeCounterParryBonus MayRequire="CETeam.CombatExtended">0.6</MeleeCounterParryBonus>

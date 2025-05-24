@@ -84,7 +84,7 @@
 			<li>RewardStandardQualitySuper</li>
 		</thingSetMakerTags>
 		<statBases>
-			<WorkToMake>10000</WorkToMake>
+			<WorkToMake>8500</WorkToMake>
 			<Mass>2</Mass>
 			<Bulk MayRequire="CETeam.CombatExtended">10</Bulk>
 			<MeleeCounterParryBonus MayRequire="CETeam.CombatExtended">1.08</MeleeCounterParryBonus>
